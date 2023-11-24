@@ -4,7 +4,7 @@
 }
 
 .container {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -14,14 +14,14 @@
     display: flex;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin: 12px 5px;
-    width: 14vw;
-    height: 35vh;
+    margin: 8px 0;
+    max-width: 200px;
+    min-width: 150px;
+    width: 20vw;
+    height: 30vh;
     font-size: 18px;
     text-align: center;
     box-sizing: border-box;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .card img {
@@ -33,6 +33,3 @@
     padding-top: 3px;    
 }
 
-.card h3 {    
-    padding-bottom: 4px;    
-}
