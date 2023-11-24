@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 12px 5px;
+    width: 14vw;
+    height: 35vh;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    max-width: 100%;
+    width: 95%;
+    height: 95%;    
+    object-fit: cover;
+    border-radius: 5px;
+    padding-top: 3px;    
+}
+
+.card h3 {    
+    padding-bottom: 4px;    
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Links SENAI</title>
+</head>
+
+<body>
+    <div class="container" id="objetos-container"></div>
+        
+
+    <script>
+        function carregarLinks() {
+            fetch('objetos.json')
+                .then(response => response.json())
+                .then(objetos => {
+                    const container = document.querySelector("#objetos-container")
+
+                    objetos.forEach(objeto => {
+                        const card = document.createElement("div")
+                        card.classList.add("card")
+
+                        const img = document.createElement("img");
+                        img.src = objeto.imagem
+                        img.alt = objeto.nome
+
+                        const link = document.createElement("a");
+                        link.href = objeto.caminho
+                        link.target = "_blank"
+
+                        const titulo = document.createElement("h3")
+                        titulo.textContent = objeto.nome
+
+                        link.appendChild(img);
+                        card.appendChild(link);
+                        card.appendChild(titulo);
+
+                        container.appendChild(card);
+                    })
+                })
+        }
+
+        carregarLinks()
+    </script>
+</body>
+</html>

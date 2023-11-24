@@ -1,0 +1,96 @@
+[
+    {
+        "nome": "netNucleo",
+        "caminho": "http://netnucleo.com.br/senai/",
+        "imagem": "img/netnucleo.jpg"
+    },
+    {
+        "nome": "email SENAI",
+        "caminho": "https://outlook.office.com/mail/inbox/id/AAQkAGRiMDE4Mjc5LTUxZmEtNGJhYS04NmJkLTIxOTg4OTY2ODliNwAQAOibcKnWiRhBk%2BNhfZqRpBg%3D",
+        "imagem": "img/emailsenai.jpg"
+    },
+    {
+        "nome": "intranet",
+        "caminho": "https://nossaintranet.fiemg.com.br/",
+        "imagem": "img/intranet.jpg"
+    },
+    {
+        "nome": "lugar da gente",
+        "caminho": "https://pessoas.fiemg.com.br/lugardagente/Principal.aspx",
+        "imagem": "img/lugardagente.jpg"
+    },
+    {
+        "nome": "portal Docente",
+        "caminho": "https://portaldocente.fiemg.com.br/Corpore.Net/Login.aspx",
+        "imagem": "img/portaldocente.jpg"
+    },
+    
+    {
+        "nome": "meu Senai",
+        "caminho": "https://iam.senai.br/authenticationendpoint/login.do?RelayState=%2Fdn%2F&commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&tenantDomain=carbon.super&sessionDataKey=e6f3e3ab-292b-4fc0-b116-e51a7822e2e0&relyingParty=https%3A%2F%2Fsenaiead.senai.br%2Fdn&type=samlsso&sp=LMS-SP-DN&isSaaSApp=false&authenticators=GoogleOIDCAuthenticator%3Agoogleoauth.hub%3BBasicAuthenticator%3ALOCAL",
+        "imagem": "img/meusenai.jpg"
+    },
+    
+    {
+        "nome": "Grand Prix",
+        "caminho": "https://plataforma.gpinovacao.senai.br/",
+        "imagem": "img/grandprix.jpg"
+    },
+    {
+        "nome": "EAD",
+        "caminho": "https://mg.senaiead.senai.br/login?dir=%2F&hash=portal",
+        "imagem": "img/senaiead.jpg"
+    },
+    {
+        "nome": "unIndustria",
+        "caminho": "https://ead.sesieducacao.com.br/uc/#portal",
+        "imagem": "img/unindustria.jpg"
+    },
+    {
+        "nome": "Classroom",
+        "caminho": "https://classroom.google.com/",
+        "imagem": "img/classroom.jpg"
+    },
+    {
+        "nome": "SAEP - teórico",
+        "caminho": "https://siac.senai.br/login",
+        "imagem": "img/saepteorico.jpg"
+    },
+    {
+        "nome": "SAEP - prático",
+        "caminho": "https://sap.senai.br/login",
+        "imagem": "img/saeppratico.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }
+]
+
+
