@@ -62,6 +62,36 @@
         "imagem": "img/saeppratico.jpg"
     },
     {
+        "nome": "Canva",
+        "caminho": "https://www.canva.com/",
+        "imagem": "img/canva.jpg"
+    },
+    {
+        "nome": "Devmedia",
+        "caminho": "https://www.devmedia.com.br/",
+        "imagem": "img/devmedia.jpg"
+    },
+    {
+        "nome": "ChatGPT",
+        "caminho": "https://chat.openai.com/auth/login",
+        "imagem": "img/chatgpt.jpg"
+    },
+    {
+        "nome": "Hotmail",
+        "caminho": "https://outlook.live.com/mail/0/",
+        "imagem": "img/hotmail.jpg"
+    },
+    {
+        "nome": "Gmail",
+        "caminho": "https://mail.google.com/mail/u/0/#inbox",
+        "imagem": "img/gmail.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"

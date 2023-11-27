@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 8px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <title>Editar Objeto</title>
+</head>
+<body>
+    <form id="editForm">
+        <label for="nome">Nome do Objeto:</label>
+        <input type="text" id="nome" name="nome">
+        <br>
+        <label for="caminho">Novo Caminho:</label>
+        <input type="text" id="caminho" name="caminho">
+        <br>
+        <label for="imagem">Nova Imagem URL:</label>
+        <input type="text" id="imagem" name="imagem">
+        <br>
+        <button type="button" onclick="editarObjeto()">Confirmar Edição</button>
+    </form>
+
+    <script>
+        // Função para preencher os campos do formulário com os parâmetros da string de consulta
+        function preencherFormulario() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const nome = urlParams.get('nome');
+            const caminho = urlParams.get('caminho');
+            const imagem = urlParams.get('imagem');
+
+            // Preencher os campos do formulário
+            document.getElementById('nome').value = nome;
+            document.getElementById('caminho').value = caminho;
+            document.getElementById('imagem').value = imagem;
+        }
+
+        // Função para enviar os dados editados de volta para a página principal
+        function editarObjeto() {
+            const nome = document.getElementById('nome').value;
+            const caminho = document.getElementById('caminho').value;
+            const imagem = document.getElementById('imagem').value;
+
+            // Aqui você pode adicionar lógica para atualizar o arquivo JSON ou realizar outras ações necessárias
+
+            // Redirecionar de volta para a página principal após a edição
+            window.location.href = 'index.html';
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            preencherFormulario();
+        });
+    </script>
+</body>
+</html>

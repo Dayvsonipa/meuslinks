@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css" />
-    <title>Links SENAI</title>
+    <title>Alterar Links e Imagens</title>
 </head>
-
 <body>
     <div class="container" id="objetos-container"></div>
-        
 
     <script>
         function carregarLinks() {
@@ -30,19 +28,33 @@
                         link.href = objeto.caminho
                         link.target = "_blank"
 
-                        //const titulo = document.createElement("h3")
-                        //titulo.textContent = objeto.nome
+                        //const editIcon = document.createElement("span");
+                        //editIcon.classList.add("edit-icon");
+                        //editIcon.innerHTML = "&#9998;"; // Código HTML para um ícone de edição
+                        //editIcon.onclick = function() {
+                        //    abrirPaginaEdicao(objeto);
+                        //};
 
                         link.appendChild(img);
                         card.appendChild(link);
-                        //card.appendChild(titulo);
+                        //card.appendChild(editIcon);
 
                         container.appendChild(card);
                     })
                 })
         }
 
-        carregarLinks()
+        function abrirPaginaEdicao(objeto) {
+            // Construir a URL da página de edição com os parâmetros na string de consulta
+            const urlPaginaEdicao = `pagina_edicao.html?nome=${encodeURIComponent(objeto.nome)}&caminho=${encodeURIComponent(objeto.caminho)}&imagem=${encodeURIComponent(objeto.imagem)}`;
+
+            // Redirecionar para a página de edição
+            window.location.href = urlPaginaEdicao;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            carregarLinks();
+        });
     </script>
 </body>
 </html>
