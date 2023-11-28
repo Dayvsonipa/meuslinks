@@ -7,6 +7,7 @@
     <title>Alterar Links e Imagens</title>
 </head>
 <body>
+
     <div class="container" id="objetos-container"></div>
 
     <script>
@@ -28,28 +29,12 @@
                         link.href = objeto.caminho
                         link.target = "_blank"
 
-                        //const editIcon = document.createElement("span");
-                        //editIcon.classList.add("edit-icon");
-                        //editIcon.innerHTML = "&#9998;"; // Código HTML para um ícone de edição
-                        //editIcon.onclick = function() {
-                        //    abrirPaginaEdicao(objeto);
-                        //};
-
                         link.appendChild(img);
                         card.appendChild(link);
-                        //card.appendChild(editIcon);
 
                         container.appendChild(card);
                     })
                 })
-        }
-
-        function abrirPaginaEdicao(objeto) {
-            // Construir a URL da página de edição com os parâmetros na string de consulta
-            const urlPaginaEdicao = `pagina_edicao.html?nome=${encodeURIComponent(objeto.nome)}&caminho=${encodeURIComponent(objeto.caminho)}&imagem=${encodeURIComponent(objeto.imagem)}`;
-
-            // Redirecionar para a página de edição
-            window.location.href = urlPaginaEdicao;
         }
 
         document.addEventListener('DOMContentLoaded', function() {
