@@ -2,64 +2,96 @@
     {
         "nome": "netNucleo",
         "caminho": "http://netnucleo.com.br/senai/",
-        "imagem": "img/netnucleo.jpg"
+        "imagem": "img/netnucleo.jpg",
+        "cor": "green"
     },
     {
         "nome": "email SENAI",
         "caminho": "https://outlook.office.com/mail/inbox/id/AAQkAGRiMDE4Mjc5LTUxZmEtNGJhYS04NmJkLTIxOTg4OTY2ODliNwAQAOibcKnWiRhBk%2BNhfZqRpBg%3D",
-        "imagem": "img/emailsenai.jpg"
+        "imagem": "img/emailsenai.jpg",
+        "cor": "green"
     },
     {
         "nome": "intranet",
         "caminho": "https://nossaintranet.fiemg.com.br/",
-        "imagem": "img/intranet.jpg"
+        "imagem": "img/intranet.jpg",
+        "cor": "green"
     },
     {
         "nome": "lugar da gente",
         "caminho": "https://pessoas.fiemg.com.br/lugardagente",
-        "imagem": "img/lugardagente.jpg"
+        "imagem": "img/lugardagente.jpg",
+        "cor": "green"
     },
     {
         "nome": "portal Docente",
         "caminho": "https://portaldocente.fiemg.com.br/Corpore.Net/Login.aspx",
-        "imagem": "img/portaldocente.jpg"
+        "imagem": "img/portaldocente.jpg",
+        "cor": "green"
     },
     
     {
         "nome": "meu Senai",
         "caminho": "https://iam.senai.br/authenticationendpoint/login.do?RelayState=%2Fdn%2F&commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&tenantDomain=carbon.super&sessionDataKey=e6f3e3ab-292b-4fc0-b116-e51a7822e2e0&relyingParty=https%3A%2F%2Fsenaiead.senai.br%2Fdn&type=samlsso&sp=LMS-SP-DN&isSaaSApp=false&authenticators=GoogleOIDCAuthenticator%3Agoogleoauth.hub%3BBasicAuthenticator%3ALOCAL",
-        "imagem": "img/meusenai.jpg"
+        "imagem": "img/meusenai.jpg",
+        "cor": "green"
     },
     
     {
         "nome": "Grand Prix",
         "caminho": "https://plataforma.gpinovacao.senai.br/",
-        "imagem": "img/grandprix.jpg"
+        "imagem": "img/grandprix.jpg",
+        "cor": "green"
     },
     {
         "nome": "EAD",
         "caminho": "https://mg.senaiead.senai.br/login?dir=%2F&hash=portal",
-        "imagem": "img/senaiead.jpg"
+        "imagem": "img/senaiead.jpg",
+        "cor": "green"
     },
     {
         "nome": "unIndustria",
         "caminho": "https://ead.sesieducacao.com.br/uc/#portal",
-        "imagem": "img/unindustria.jpg"
+        "imagem": "img/unindustria.jpg",
+        "cor": "green"
     },
     {
         "nome": "Classroom",
         "caminho": "https://classroom.google.com/",
-        "imagem": "img/classroom.jpg"
+        "imagem": "img/classroom.jpg",
+        "cor": "green"
     },
     {
         "nome": "SAEP - teórico",
         "caminho": "https://siac.senai.br/login",
-        "imagem": "img/saepteorico.jpg"
+        "imagem": "img/saepteorico.jpg",
+        "cor": "green"
     },
     {
         "nome": "SAEP - prático",
         "caminho": "https://sap.senai.br/login",
-        "imagem": "img/saeppratico.jpg"
+        "imagem": "img/saeppratico.jpg",
+        "cor": "green"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
     },
     {
         "nome": "ChatGPT",
@@ -82,6 +114,16 @@
         "imagem": "img/canva.jpg"
     },
     {
+        "nome": "Figma",
+        "caminho": "https://www.figma.com/",
+        "imagem": "img/figma.jpg"
+    },
+    {
+        "nome": "Github",
+        "caminho": "https://github.com/login",
+        "imagem": "img/github.jpg"
+    },
+    {
         "nome": "Hotmail",
         "caminho": "https://outlook.live.com/mail/0/",
         "imagem": "img/hotmail.jpg"
@@ -90,11 +132,21 @@
         "nome": "Gmail",
         "caminho": "https://mail.google.com/mail/u/0/#inbox",
         "imagem": "img/gmail.jpg"
-    },    
+    },   
     {
-        "nome": "Github",
-        "caminho": "https://github.com/login",
-        "imagem": "img/github.jpg"
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
     },
     {
         "nome": "---",
@@ -121,6 +173,7 @@
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
     }
+    
 ]
 
 
