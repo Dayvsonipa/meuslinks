@@ -13,12 +13,12 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px 40px;
-    row-gap: 30px;
-    column-gap: 40px;
+    row-gap: 20px;
+    column-gap: 20px;
   }
 
 .card {
-  flex: 1 1 170px;
+  flex: 1 1 120px;
   border-radius: 4px;
   box-shadow: 1px 1px 10px 1px gray;
 }
