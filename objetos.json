@@ -74,9 +74,9 @@
         "cor": "green"
     },
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "SELFBOOK",
+        "caminho": "https://selfbooking.lemontech.com.br/Login.enviaEmail.mtw",
+        "imagem": "img/selfbook.jpg"
     },    
     {
         "nome": "ChatGPT",
@@ -119,9 +119,9 @@
         "imagem": "img/gmail.jpg"
     },   
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "IBI",
+        "caminho": "https://ibitelecom.com.br/boletos/",
+        "imagem": "img/ibi.jpg"
     },
     {
         "nome": "---",
