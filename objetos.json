@@ -123,16 +123,7 @@
         "caminho": "https://ibitelecom.com.br/boletos/",
         "imagem": "img/ibi.jpg"
     },
-    {
-        "nome": "Bolsa",
-        "caminho": "https://bolsadeaposta.com/exchange/inplay/highlights",
-        "imagem": "img/bolsadeapostas.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
+    
     {
         "nome": "---",
         "caminho": "",
@@ -153,6 +144,17 @@
         "caminho": "https://www.youtube.com/watch?v=1KJsFDMeMmY&list=PLn-80lNl1Pv0gTA4ZIsOMwvsZUAZT0q4F&index=1",
         "imagem": "img/solucao100days.jpg"
     },
+    {
+        "nome": "Bolsa",
+        "caminho": "https://bolsadeaposta.com/exchange/inplay/highlights",
+        "imagem": "img/bolsadeapostas.jpg"
+    },
+    {
+        "nome": "CalculadoraEsportiva",
+        "caminho": "https://www.academiadasapostasbrasil.com/calculator/matched-betting",
+        "imagem": "img/calculadoraesportiva.jpg"
+    },
+
     {
         "nome": "---",
         "caminho": "",
