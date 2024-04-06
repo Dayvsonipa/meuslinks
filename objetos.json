@@ -28,15 +28,13 @@
         "caminho": "https://portaldocente.fiemg.com.br/Corpore.Net/Login.aspx",
         "imagem": "img/portaldocente.jpg",
         "cor": "green"
-    },
-    
+    },        
     {
         "nome": "meu Senai",
         "caminho": "https://iam.senai.br/authenticationendpoint/login.do?RelayState=%2Fdn%2F&commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&tenantDomain=carbon.super&sessionDataKey=e6f3e3ab-292b-4fc0-b116-e51a7822e2e0&relyingParty=https%3A%2F%2Fsenaiead.senai.br%2Fdn&type=samlsso&sp=LMS-SP-DN&isSaaSApp=false&authenticators=GoogleOIDCAuthenticator%3Agoogleoauth.hub%3BBasicAuthenticator%3ALOCAL",
         "imagem": "img/meusenai.jpg",
         "cor": "green"
-    },
-    
+    },    
     {
         "nome": "Grand Prix",
         "caminho": "https://plataforma.gpinovacao.senai.br/",
@@ -77,7 +75,12 @@
         "nome": "SELFBOOK",
         "caminho": "https://selfbooking.lemontech.com.br/Login.enviaEmail.mtw",
         "imagem": "img/selfbook.jpg"
-    },    
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },   
     {
         "nome": "ChatGPT",
         "caminho": "https://chat.openai.com/auth/login",
@@ -109,6 +112,21 @@
         "imagem": "img/github.jpg"
     },
     {
+        "nome": "100Days",
+        "caminho": "https://100dayscss.com/days/1/",
+        "imagem": "img/100days.jpg"
+    },
+    {
+        "nome": "Solução100Days",
+        "caminho": "https://www.youtube.com/watch?v=1KJsFDMeMmY&list=PLn-80lNl1Pv0gTA4ZIsOMwvsZUAZT0q4F&index=1",
+        "imagem": "img/solucao100days.jpg"
+    },        
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
         "nome": "Hotmail",
         "caminho": "https://outlook.live.com/mail/0/",
         "imagem": "img/hotmail.jpg"
@@ -123,26 +141,10 @@
         "caminho": "https://ibitelecom.com.br/boletos/",
         "imagem": "img/ibi.jpg"
     },
-    
     {
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "100Days",
-        "caminho": "https://100dayscss.com/days/1/",
-        "imagem": "img/100days.jpg"
-    },
-    {
-        "nome": "Solução100Days",
-        "caminho": "https://www.youtube.com/watch?v=1KJsFDMeMmY&list=PLn-80lNl1Pv0gTA4ZIsOMwvsZUAZT0q4F&index=1",
-        "imagem": "img/solucao100days.jpg"
     },
     {
         "nome": "Bolsa",
@@ -155,6 +157,31 @@
         "imagem": "img/calculadoraesportiva.jpg"
     },
 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
     {
         "nome": "---",
         "caminho": "",

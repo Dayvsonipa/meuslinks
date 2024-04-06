@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,33 +11,53 @@
     <div class="container" id="objetos-container"></div>
 
     <script>
-        function carregarLinks() {
+        function carregarLinks() 
+        {
             fetch('objetos.json')
-                .then(response => response.json())
-                .then(objetos => {
+            .then(response => response.json())
+            .then
+            (
+                objetos => 
+                {
                     const container = document.querySelector("#objetos-container")
+                    let cardCount = 0; // Contador para os cards
+                    objetos.forEach
+                    (
+                        (objeto, index) => 
+                        {
+                            const card = document.createElement("div")
+                            card.classList.add("card")
 
-                    objetos.forEach(objeto => {
-                        const card = document.createElement("div")
-                        card.classList.add("card")
+                            const img = document.createElement("img");
+                            img.src = objeto.imagem
+                            img.alt = objeto.nome
 
-                        const img = document.createElement("img");
-                        img.src = objeto.imagem
-                        img.alt = objeto.nome
+                            const link = document.createElement("a");
+                            link.href = objeto.caminho
+                            link.target = "_blank"
 
-                        const link = document.createElement("a");
-                        link.href = objeto.caminho
-                        link.target = "_blank"
+                            link.appendChild(img);
+                            card.appendChild(link);
 
-                        link.appendChild(img);
-                        card.appendChild(link);
+                            container.appendChild(card);
 
-                        container.appendChild(card);
-                    })
-                })
+                            // Nomeando os cards conforme a contagem
+                            if (index < 13) {
+                                card.classList.add("card01");
+                            } else if (index < 22) {
+                                card.classList.add("card03");
+                            } else if (index < 27) {
+                                card.classList.add("card04");
+                            } else if (index < 45) {
+                                card.classList.add("card05");
+                            }
+                        }
+                    )
+                }
+            )
         }
 
-        document.addEventListener('DOMContentLoaded', function() {carregarLinks();});
+document.addEventListener('DOMContentLoaded', function() { carregarLinks(); });
         
     </script>
 </body>
