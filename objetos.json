@@ -75,17 +75,17 @@
         "nome": "SELFBOOK",
         "caminho": "https://selfbooking.lemontech.com.br/Login.enviaEmail.mtw",
         "imagem": "img/selfbook.jpg"
-    }, 
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
     },   
     {
         "nome": "ChatGPT",
         "caminho": "https://chat.openai.com/auth/login",
         "imagem": "img/chatgpt.jpg"
-    },    
+    },         
+    {
+        "nome": "CS50",
+        "caminho": "https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home",
+        "imagem": "img/cs50.jpg"
+    },   
     {
         "nome": "Devmedia",
         "caminho": "https://www.devmedia.com.br/",
