@@ -42,13 +42,15 @@
                             container.appendChild(card);
 
                             // Nomeando os cards conforme a contagem
-                            if (index < 13) {
+                            if (index < 15) {
                                 card.classList.add("card01");
-                            } else if (index < 23) {
+                            } else if (index < 21) {
+                                card.classList.add("card02");
+                            } else if (index < 35) {
                                 card.classList.add("card03");
-                            } else if (index < 27) {
+                            } else if (index < 41) {
                                 card.classList.add("card04");
-                            } else if (index < 45) {
+                            } else if (index > 40) {
                                 card.classList.add("card05");
                             }
                         }

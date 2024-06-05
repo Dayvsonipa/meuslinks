@@ -32,7 +32,7 @@
 .card02 {
   flex: 1 1 120px;
   border-radius: 4px;
-  box-shadow: 1px 1px 10px 1px gray;
+  box-shadow: 1px 1px 10px 1px rgb(23, 151, 6);   
 }
 
 .card03 {
@@ -45,13 +45,7 @@
 .card04 {
   flex: 1 1 120px;
   border-radius: 4px;
-  box-shadow: 1px 1px 10px 1px rgb(23, 151, 6); 
-}
-
-.card05 {
-  flex: 1 1 120px;
-  border-radius: 4px;
-  box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+  box-shadow: 1px 1px 10px 1px gray;
 }
 
 img {
