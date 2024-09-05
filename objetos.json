@@ -85,14 +85,14 @@
         "imagem": "img/minhaBiblioteca.jpg"
     },
     {
+        "nome": "Drive Pesquisa Operacional",
+        "caminho": "https://drive.google.com/drive/folders/1UWeIYQCM-xM3Jbrfg1l5W9zI_OGTEes-",
+        "imagem": "img/drivePesquisaOperacional.jpg"
+    },
+    {
         "nome": "Drive Programação II",
         "caminho": "https://drive.google.com/drive/u/0/folders/1SvoP2sAywDyFFIlQm8naRyWOdAebLZtG",
         "imagem": "img/driveProgramacaoII.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
     },
     {
         "nome": "---",
