@@ -155,14 +155,14 @@
         "imagem": "img/jspro.jpg"
     },
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "developerMozilla",
+        "caminho": "https://developer.mozilla.org/en-US/play",
+        "imagem": "img/developermozilla.png"
     },
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "frontendpractice",
+        "caminho": "https://www.frontendpractice.com/",
+        "imagem": "img/frontendpractice.png"
     },
     {
         "nome": "---",
@@ -193,17 +193,7 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
+    },    
     {
         "nome": "Bolsa",
         "caminho": "https://bolsadeaposta.com/exchange/inplay/highlights",
@@ -221,14 +211,14 @@
         "imagem": "img/emdesenvolvimento.jpg"
     },
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "codecombat",
+        "caminho": "https://codecombat.com/",
+        "imagem": "img/codecombat.png"
     },        
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "appsheet",
+        "caminho": "https://www.appsheet.com/Home/Apps",
+        "imagem": "img/appsheet.png"
     },
     {
         "nome": "---",
