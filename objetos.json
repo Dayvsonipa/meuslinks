@@ -128,26 +128,21 @@
         "nome": "ChatGPT",
         "caminho": "https://chat.openai.com/auth/login",
         "imagem": "img/chatgpt.jpg"
-    },         
-    {
-        "nome": "CS50",
-        "caminho": "https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home",
-        "imagem": "img/cs50.jpg"
-    },   
+    },  
     {
         "nome": "Devmedia",
         "caminho": "https://www.devmedia.com.br/",
         "imagem": "img/devmedia.jpg"
     },
     {
+        "nome": "JSPro",
+        "caminho": "https://app.nutror.com/cursos",
+        "imagem": "img/jspro.jpg"
+    },
+    {
         "nome": "Udemy",
         "caminho": "https://www.udemy.com/home/my-courses/learning/",
         "imagem": "img/udemy.jpg"
-    },
-    {
-        "nome": "Canva",
-        "caminho": "https://www.canva.com/",
-        "imagem": "img/canva.jpg"
     },
     {
         "nome": "Figma",
@@ -158,7 +153,12 @@
         "nome": "Github",
         "caminho": "https://github.com/login",
         "imagem": "img/github.jpg"
-    },
+    },             
+    {
+        "nome": "CS50",
+        "caminho": "https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home",
+        "imagem": "img/cs50.jpg"
+    }, 
     {
         "nome": "100Days",
         "caminho": "https://100dayscss.com/days/1/",
@@ -169,11 +169,7 @@
         "caminho": "https://www.youtube.com/watch?v=1KJsFDMeMmY&list=PLn-80lNl1Pv0gTA4ZIsOMwvsZUAZT0q4F&index=1",
         "imagem": "img/solucao100days.jpg"
     },        
-    {
-        "nome": "JSPro",
-        "caminho": "https://app.nutror.com/cursos",
-        "imagem": "img/jspro.jpg"
-    },
+   
     {
         "nome": "developerMozilla",
         "caminho": "https://developer.mozilla.org/en-US/play",

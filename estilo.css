@@ -18,38 +18,38 @@
   }
 
 .card {
-  flex: 1 1 110px;
+  flex: 1 1 105px;
   border-radius: 4px;
   box-shadow: 1px 1px 10px 1px gray;
 }
 
 .card01 {
-  flex: 1 1 110px;
+  flex: 1 1 105px;
   border-radius: 4px;
   box-shadow: 1px 1px 10px 1px rgb(11, 61, 197);
 }
 
 .card02 {
-  flex: 1 1 110px;
+  flex: 1 1 105px;
   border-radius: 4px;
   box-shadow: 1px 1px 10px 1px rgb(23, 151, 6);   
 }
 
 .card03 {
-  flex: 1 1 110px;
+  flex: 1 1 105px;
   border-radius: 4px;
   box-shadow: 1px 1px 10px 1px rgb(230, 6, 6); 
    
 }
 
 .card04 {
-  flex: 1 1 110px;
+  flex: 1 1 105px;
   border-radius: 4px;
   box-shadow: 1px 1px 10px 1px rgb(0, 255, 221);
 }
 
 .card05 {
-  flex: 1 1 110px;
+  flex: 1 1 105px;
   border-radius: 4px;
   box-shadow: 1px 1px 10px 1px rgb(56, 58, 58);
 }
