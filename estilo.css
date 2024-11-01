@@ -45,12 +45,6 @@
 .card04 {
   flex: 1 1 105px;
   border-radius: 4px;
-  box-shadow: 1px 1px 10px 1px rgb(0, 255, 221);
-}
-
-.card05 {
-  flex: 1 1 105px;
-  border-radius: 4px;
   box-shadow: 1px 1px 10px 1px rgb(56, 58, 58);
 }
 

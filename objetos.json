@@ -65,6 +65,11 @@
         "imagem": "img/imagens_senai/img13_selfbook.jpg"
     },  
     {
+        "nome": "appsheet",
+        "caminho": "https://www.appsheet.com/Home/Apps",
+        "imagem": "img/imagens_senai/img14_appsheet.jpg"
+    },
+    {
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
@@ -118,12 +123,7 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    }, 
+    },   
     {
         "nome": "Chatgpt-",
         "caminho": "https://chat.openai.com/auth/login",
@@ -184,17 +184,7 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
+    },    
     {
         "nome": "Hotmail",
         "caminho": "https://outlook.live.com/mail/0/",
@@ -216,29 +206,14 @@
         "imagem": "img/rdc.jpg"
     }, 
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },   
-    {
-        "nome": "Bolsa",
-        "caminho": "https://bolsadeaposta.com/exchange/inplay/highlights",
-        "imagem": "img/bolsadeapostas.jpg"
+        "nome": "trade",
+        "caminho": "https://app.fulltradersports.com/dashboard",
+        "imagem": "img/fulltrader.jpg"
     },
     {
         "nome": "CalculadoraEsportiva",
         "caminho": "https://www.academiadasapostasbrasil.com/calculator/matched-betting",
-        "imagem": "img/calculadoraesportiva.jpg"
+        "imagem": "img/calculadoradeapostas.jpg"
     },
     {
         "nome": "---",
@@ -246,15 +221,40 @@
         "imagem": "img/emdesenvolvimento.jpg"
     },
     {
-        "nome": "codecombat",
-        "caminho": "https://codecombat.com/",
-        "imagem": "img/codecombat.png"
-    },        
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },    
     {
-        "nome": "appsheet",
-        "caminho": "https://www.appsheet.com/Home/Apps",
-        "imagem": "img/appsheet.png"
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },       
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
     },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },       
     {
         "nome": "---",
         "caminho": "",
