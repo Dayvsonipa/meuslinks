@@ -206,6 +206,11 @@
         "imagem": "img/rdc.jpg"
     }, 
     {
+        "nome": "betfair",
+        "caminho": "https://www.betfair.com/exchange/plus/",
+        "imagem": "img/betfair.jpg"
+    },
+    {
         "nome": "trade",
         "caminho": "https://app.fulltradersports.com/dashboard",
         "imagem": "img/fulltrader.jpg"
@@ -214,12 +219,7 @@
         "nome": "CalculadoraEsportiva",
         "caminho": "https://www.academiadasapostasbrasil.com/calculator/matched-betting",
         "imagem": "img/calculadoradeapostas.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
+    },   
     {
         "nome": "---",
         "caminho": "",
