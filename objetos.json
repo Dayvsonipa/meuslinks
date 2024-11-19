@@ -75,15 +75,45 @@
         "imagem": "img/emdesenvolvimento.jpg"
     },
     {
+        "nome": "---",
+        "caminho": "https://scrumguides.org/scrum-guide.html",
+        "imagem": "img/scrumguide.jpg"
+    },       
+    {
+        "nome": "---",
+        "caminho": "https://www.classmarker.com/online-test/start/test-intro/?quiz=3qg5fac7589c0416",
+        "imagem": "img/scrumtestes.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "https://www.scrum.org/pathway/scrum-master/",
+        "imagem": "img/trilhaconhecimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "http://agilemanifesto.org/iso/ptbr/manifesto.html",
+        "imagem": "img/manifestoagil.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "https://agileschool.com.br",
+        "imagem": "img/agileacademy.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
         "nome": "Pincel Atomico",
         "caminho": "https://faculdadeunica.pincelatomico.net.br/",
         "imagem": "img/imagens_unica/pincel.jpg"
-    },    
-    {
-        "nome": "Drive Engenharia de Software",
-        "caminho": "",
-        "imagem": "img/imagens_unica/engenhariaSoftwareDezembro.jpg"
-    },
+    },        
     {
         "nome": "Drive Engenharia de Software",
         "caminho": "https://drive.google.com/drive/folders/14xUSvZq_OJdJ5ELHBnRktkV8cdoIhjs_",
@@ -114,16 +144,7 @@
         "caminho": "https://dliportal.zbra.com.br/Login.aspx?key=unica",
         "imagem": "img/imagens_unica/minhabiblioteca.jpg"
     },    
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },   
+       
     {
         "nome": "Chatgpt-",
         "caminho": "https://chat.openai.com/auth/login",
@@ -225,6 +246,7 @@
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
     },    
+    
     {
         "nome": "---",
         "caminho": "",
@@ -254,12 +276,102 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
     },       
     {
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
     },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },       
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },       
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },       
     {
         "nome": "---",
         "caminho": "",
