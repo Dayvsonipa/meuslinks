@@ -83,6 +83,16 @@
         "nome": "Pincel Atomico",
         "caminho": "https://faculdadeunica.pincelatomico.net.br/",
         "imagem": "img/imagens_unica/pincel.jpg"
+    },     
+    {
+        "nome": "Engenharia de Software II",
+        "caminho": "https://drive.google.com/drive/folders/1DnkZEsYFq6ztdvDyY-NitIZ-HrQFliqC",
+        "imagem": "img/imagens_unica/engenhariaSoftware2.jpg"
+    },                    
+    {
+        "nome": "Projeto Integrador 3",
+        "caminho": "",
+        "imagem": "img/imagens_unica/projetoIntegrador3.jpg"
     },
     {
         "nome": "Drive Banco de Dados",
@@ -118,22 +128,16 @@
         "nome": "Minha Biblioteca",
         "caminho": "https://dliportal.zbra.com.br/Login.aspx?key=unica",
         "imagem": "img/imagens_unica/minhabiblioteca.jpg"
-    }, 
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-                
+    },                
     {
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
     },  
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "Mestrado",
+        "caminho": "https://must.orbundsis.com/",
+        "imagem": "img/mestrado.jpg"
     }, 
     {
         "nome": "---",
