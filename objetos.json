@@ -128,16 +128,21 @@
         "nome": "Minha Biblioteca",
         "caminho": "https://dliportal.zbra.com.br/Login.aspx?key=unica",
         "imagem": "img/imagens_unica/minhabiblioteca.jpg"
-    },                
+    },  
     {
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
+    },                
+    {
+        "nome": "Mestrado_ava",
+        "caminho": "https://ava.mustedu.com/",
+        "imagem": "img/mestrado_ava.jpg"
     },  
     {
-        "nome": "Mestrado",
+        "nome": "mestrado_pagamento",
         "caminho": "https://must.orbundsis.com/",
-        "imagem": "img/mestrado.jpg"
+        "imagem": "img/mestrado_pagamento.jpg"
     }, 
     {
         "nome": "---",
@@ -375,46 +380,6 @@
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
     },       
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },       
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
     {
         "nome": "---",
         "caminho": "",
