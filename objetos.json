@@ -1,10 +1,5 @@
 [
     {
-        "nome": "dayvson    ",
-        "caminho": "https://dayvson.com.br/",
-        "imagem": "img/dayvson.jpg"
-    },
-    {
         "nome": "netNucleo",
         "caminho": "http://netnucleo.com.br/senai/",
         "imagem": "img/imagens_senai/img01_netnucleo.jpg"
@@ -73,11 +68,11 @@
         "nome": "appsheet",
         "caminho": "https://www.appsheet.com/Home/Apps",
         "imagem": "img/imagens_senai/img14_appsheet.jpg"
-    },       
+    },
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "dayvson",
+        "caminho": "https://dayvson.com.br/",
+        "imagem": "img/dayvson.jpg"
     },
     {
         "nome": "Pincel Atomico",
@@ -133,7 +128,17 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    },                
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },                   
     {
         "nome": "Mestrado_ava",
         "caminho": "https://ava.mustedu.com/",
@@ -143,21 +148,16 @@
         "nome": "mestrado_pagamento",
         "caminho": "https://must.orbundsis.com/",
         "imagem": "img/mestrado_pagamento.jpg"
-    }, 
+    },   
     {
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    },   
-    {
-        "nome": "Hostinger",
-        "caminho": "https://hpanel.hostinger.com/",
-        "imagem": "img/hostinger.jpg"
     },    
     {
-        "nome": "Chatgpt-",
-        "caminho": "https://chat.openai.com/auth/login",
-        "imagem": "img/imagens_estudos/chatgpt1.jpg"
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
     },  
     {
         "nome": "Devmedia",
@@ -174,16 +174,7 @@
         "caminho": "https://www.udemy.com/home/my-courses/learning/",
         "imagem": "img/imagens_estudos/udemy.jpg"
     },
-    {
-        "nome": "Figma",
-        "caminho": "https://www.figma.com/",
-        "imagem": "img/imagens_estudos/figma.jpg"
-    },
-    {
-        "nome": "Github",
-        "caminho": "https://github.com/login",
-        "imagem": "img/imagens_estudos/github.jpg"
-    },     
+        
     {
         "nome": "frontendpractice",
         "caminho": "https://www.frontendpractice.com/",
@@ -208,13 +199,54 @@
         "nome": "Solução100Days",
         "caminho": "https://www.youtube.com/watch?v=1KJsFDMeMmY&list=PLn-80lNl1Pv0gTA4ZIsOMwvsZUAZT0q4F&index=1",
         "imagem": "img/imagens_estudos/100dayssolucao.jpg"
-    },        
-   
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "Github",
+        "caminho": "https://github.com/login",
+        "imagem": "img/imagens_estudos/github.jpg"
+    }, 
+     
+    {
+        "nome": "Chatgpt-",
+        "caminho": "https://chat.openai.com/auth/login",
+        "imagem": "img/imagens_estudos/chatgpt1.jpg"
+    },
+    {
+        "nome": "Hostinger",
+        "caminho": "https://hpanel.hostinger.com/",
+        "imagem": "img/hostinger.jpg"
+    },
+    {
+        "nome": "Figma",
+        "caminho": "https://www.figma.com/",
+        "imagem": "img/imagens_estudos/figma.jpg"
+    },
     {
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
     },    
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },     
     {
         "nome": "Hotmail",
         "caminho": "https://outlook.live.com/mail/0/",
@@ -235,6 +267,16 @@
         "caminho": "https://rdcviagens.com.br/",
         "imagem": "img/rdc.jpg"
     }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },    
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
     {
         "nome": "---",
         "caminho": "",
@@ -289,7 +331,12 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    },       
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
     {
         "nome": "---",
         "caminho": "",
@@ -309,83 +356,78 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },       
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },       
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },       
+    }, 
     {
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
     }
-    
+    ,
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }
+    ,
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }
+    ,
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }
+    ,
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }
+    ,
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }
+    ,
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }       
 ]
 
 

@@ -42,14 +42,18 @@
                                 container.appendChild(card);
     
                                 // Nomeando os cards conforme a contagem
-                                if (index < 15) {
+                                       if (index < 14) {
                                     card.classList.add("card01");
-                                } else if (index < 27) {
+                                } else if (index < 28) {
                                     card.classList.add("card02");
-                                } else if (index < 40) {
+                                } else if (index < 42) {
                                     card.classList.add("card03");
-                                } else if (index > 41) {
+                                } else if (index < 49) {
                                     card.classList.add("card04");
+                                } else if (index < 56) {
+                                    card.classList.add("card05");
+                                } else if (index < 70) {
+                                    card.classList.add("card06");
                                 }
                             }
                         )
@@ -59,8 +63,6 @@
     
             document.addEventListener('DOMContentLoaded', function() { carregarLinks(); });
             
-        </script>
-       
-
+        </script>  
 </body>
 </html>

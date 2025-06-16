@@ -13,41 +13,41 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 20px 40px;
+    margin: 10px 20px;
     row-gap: 20px;
     column-gap: 20px;
   }
 
 .card {
-  flex: 1 1 105px;
+  flex: 1 1 90px;
   border-radius: 4px;
-  box-shadow: 1px 1px 10px 1px gray;
+  box-shadow: 1px 1px 10px 1px rgb(155, 158, 158);
 }
 
 .card01 {
-  flex: 1 1 105px;
-  border-radius: 4px;
   box-shadow: 1px 1px 10px 1px rgb(11, 61, 197);
 }
 
 .card02 {
-  flex: 1 1 105px;
-  border-radius: 4px;
   box-shadow: 1px 1px 10px 1px rgb(23, 151, 6);   
 }
 
 .card03 {
-  flex: 1 1 105px;
-  border-radius: 4px;
-  box-shadow: 1px 1px 10px 1px rgb(230, 6, 6); 
-   
+  box-shadow: 1px 1px 10px 1px rgb(230, 6, 6);    
 }
 
 .card04 {
-  flex: 1 1 105px;
-  border-radius: 4px;
-  box-shadow: 1px 1px 10px 1px rgb(56, 58, 58);
+  box-shadow: 1px 1px 10px 1px rgb(0, 113, 96);
 }
+
+.card05 {
+  box-shadow: 1px 1px 10px 1px rgb(215, 97, 0);
+}
+
+.card06 {
+  box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+}
+
 
 img {
     width: 100%;
