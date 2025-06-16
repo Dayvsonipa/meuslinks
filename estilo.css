@@ -13,9 +13,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 10px 20px;
+    margin: 20px 20px;
     row-gap: 20px;
-    column-gap: 20px;
+    column-gap: 15px;
   }
 
 .card {
