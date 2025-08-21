@@ -21,7 +21,7 @@
     },
     {
         "nome": "portal Docente",
-        "caminho": "https://portaldocente.fiemg.com.br/Corpore.Net/Login.aspx",
+        "caminho": "https://portal.fiemg.com.br/pd",
         "imagem": "img/imagens_senai/img05_portaldocente.jpg"
     },        
     {
@@ -78,6 +78,21 @@
         "nome": "Pincel Atomico",
         "caminho": "https://faculdadeunica.pincelatomico.net.br/",
         "imagem": "img/imagens_unica/pincel.jpg"
+    },      
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
     },     
     {
         "nome": "Engenharia de Software II",
@@ -123,21 +138,6 @@
         "nome": "Minha Biblioteca",
         "caminho": "https://dliportal.zbra.com.br/Login.aspx?key=unica",
         "imagem": "img/imagens_unica/minhabiblioteca.jpg"
-    },  
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
     },                   
     {
         "nome": "Mestrado_ava",
@@ -150,6 +150,11 @@
         "imagem": "img/mestrado_pagamento.jpg"
     },   
     {
+        "nome": "email_mestrado",
+        "caminho": "https://outlook.office.com/mail/?realm=student.mustedu.com&login_hint=dayvsonrodrigues27148@student.mustedu.com",
+        "imagem": "img/email_must.jpg"
+    },    
+    {
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
@@ -158,7 +163,12 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    },  
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
     {
         "nome": "Devmedia",
         "caminho": "https://www.devmedia.com.br/",
@@ -201,16 +211,6 @@
         "imagem": "img/imagens_estudos/100dayssolucao.jpg"
     },
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
         "nome": "Github",
         "caminho": "https://github.com/login",
         "imagem": "img/imagens_estudos/github.jpg"
@@ -230,18 +230,23 @@
         "nome": "Figma",
         "caminho": "https://www.figma.com/",
         "imagem": "img/imagens_estudos/figma.jpg"
-    },
+    }, 
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },    
+        "nome": "Overleaf",
+        "caminho": "https://www.overleaf.com/project",
+        "imagem": "img/imagens_estudos/overleaf.jpg"
+    },   
     {
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
     },
     
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
     {
         "nome": "---",
         "caminho": "",
@@ -266,12 +271,7 @@
         "nome": "rdc",
         "caminho": "https://rdcviagens.com.br/",
         "imagem": "img/rdc.jpg"
-    }, 
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },    
+    },         
     {
         "nome": "---",
         "caminho": "",
@@ -282,51 +282,7 @@
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
     },    
-    {
-        "nome": "betfair",
-        "caminho": "https://www.betfair.com/apostas/",
-        "imagem": "img/apostas/betfair_apostas.jpg"
-    },
-    {
-        "nome": "betfair",
-        "caminho": "https://www.betfair.com/exchange/plus/",
-        "imagem": "img/apostas/betfair.jpg"
-    },
-    {
-        "nome": "superbet",
-        "caminho": "https://superbet.bet.br/",
-        "imagem": "img/apostas/superbet.jpg"
-    }, 
-    {
-        "nome": "kto",
-        "caminho": "https://kto.bet.br/",
-        "imagem": "img/apostas/kto.jpg"
-    }, 
-    {
-        "nome": "betbra",
-        "caminho": "https://betbra.bet.br/",
-        "imagem": "img/apostas/betbra.jpg"
-    }, 
-    {
-        "nome": "estrelabet",
-        "caminho": "https://estrelabet.bet.br/",
-        "imagem": "img/apostas/estrelabet.jpg"
-    }, 
-    {
-        "nome": "bet365",
-        "caminho": "https://bet365.bet.br/",
-        "imagem": "img/apostas/bet365.jpg"
-    }, 
-    {
-        "nome": "betano",
-        "caminho": "https://betano.bet.br/",
-        "imagem": "img/apostas/betano.jpg"
-    }, 
-    {
-        "nome": "CalculadoraEsportiva",
-        "caminho": "https://www.academiadasapostasbrasil.com/calculator/matched-betting",
-        "imagem": "img/apostas/calculadoradeapostas.jpg"
-    },
+    
     {
         "nome": "---",
         "caminho": "",
@@ -394,8 +350,7 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    }
-    ,
+    },
     {
         "nome": "---",
         "caminho": "",
@@ -405,8 +360,7 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    }
-    ,
+    },
     {
         "nome": "---",
         "caminho": "",
@@ -416,8 +370,7 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    }
-    ,
+    },
     {
         "nome": "---",
         "caminho": "",
@@ -427,7 +380,52 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    }       
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }      
 ]
 
 
