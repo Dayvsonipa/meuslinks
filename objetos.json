@@ -73,26 +73,133 @@
         "nome": "dayvson",
         "caminho": "https://dayvson.com.br/",
         "imagem": "img/dayvson.jpg"
+    }, 
+    {
+        "nome": "prompts",
+        "caminho": "https://dayvson.com.br/prompts/",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },                  
+    {
+        "nome": "Mestrado_ava",
+        "caminho": "https://ava.mustedu.com/",
+        "imagem": "img/mestrado_ava.jpg"
+    },  
+    {
+        "nome": "mestrado_pagamento",
+        "caminho": "https://must.orbundsis.com/",
+        "imagem": "img/mestrado_pagamento.jpg"
+    },   
+    {
+        "nome": "email_mestrado",
+        "caminho": "https://outlook.office.com/mail/?realm=student.mustedu.com&login_hint=dayvsonrodrigues27148@student.mustedu.com",
+        "imagem": "img/email_must.jpg"
+    },    
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "Github",
+        "caminho": "https://github.com/login",
+        "imagem": "img/imagens_estudos/github.jpg"
+    }, 
+     
+    {
+        "nome": "Chatgpt-",
+        "caminho": "https://chat.openai.com/auth/login",
+        "imagem": "img/imagens_estudos/chatgpt1.jpg"
+    },
+    {
+        "nome": "Hostinger",
+        "caminho": "https://hpanel.hostinger.com/",
+        "imagem": "img/hostinger.jpg"
+    },
+    {
+        "nome": "Figma",
+        "caminho": "https://www.figma.com/",
+        "imagem": "img/imagens_estudos/figma.jpg"
+    }, 
+    {
+        "nome": "Overleaf",
+        "caminho": "https://www.overleaf.com/project",
+        "imagem": "img/imagens_estudos/overleaf.jpg"
+    }, 
+    {
+        "nome": "Devmedia",
+        "caminho": "https://www.devmedia.com.br/",
+        "imagem": "img/imagens_estudos/devmedia.jpg"
+    },
+    {
+        "nome": "JSPro",
+        "caminho": "https://app.nutror.com/cursos",
+        "imagem": "img/imagens_estudos/jspro.jpg"
+    },
+    {
+        "nome": "Udemy",
+        "caminho": "https://www.udemy.com/home/my-courses/learning/",
+        "imagem": "img/imagens_estudos/udemy.jpg"
+    },
+        
+    {
+        "nome": "frontendpractice",
+        "caminho": "https://www.frontendpractice.com/",
+        "imagem": "img/imagens_estudos/frontend.jpg"
+    },    
+    {
+        "nome": "developerMozilla",
+        "caminho": "https://developer.mozilla.org/en-US/play",
+        "imagem": "img/imagens_estudos/developer.jpg"
+    },                 
+    {
+        "nome": "CS50",
+        "caminho": "https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home",
+        "imagem": "img/imagens_estudos/cs50.jpg"
+    },
+    {
+        "nome": "100Days",
+        "caminho": "https://100dayscss.com/days/1/",
+        "imagem": "img/imagens_estudos/100days.jpg"
+    },
+    {
+        "nome": "Solução100Days",
+        "caminho": "https://www.youtube.com/watch?v=1KJsFDMeMmY&list=PLn-80lNl1Pv0gTA4ZIsOMwvsZUAZT0q4F&index=1",
+        "imagem": "img/imagens_estudos/100dayssolucao.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },     
+    {
+        "nome": "Hotmail",
+        "caminho": "https://outlook.live.com/mail/0/",
+        "imagem": "img/hotmail.jpg"
+    },
+    {
+        "nome": "Gmail",
+        "caminho": "https://mail.google.com/mail/u/0/#inbox",
+        "imagem": "img/gmail.jpg"
+    },   
+    {
+        "nome": "IBI",
+        "caminho": "https://ibitelecom.com.br/boletos/",
+        "imagem": "img/ibi.jpg"
+    },
+    {
+        "nome": "rdc",
+        "caminho": "https://rdcviagens.com.br/",
+        "imagem": "img/rdc.jpg"
+    },         
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
     },
     {
         "nome": "Pincel Atomico",
         "caminho": "https://faculdadeunica.pincelatomico.net.br/",
         "imagem": "img/imagens_unica/pincel.jpg"
-    },      
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
     },     
     {
         "nome": "Engenharia de Software II",
@@ -138,108 +245,6 @@
         "nome": "Minha Biblioteca",
         "caminho": "https://dliportal.zbra.com.br/Login.aspx?key=unica",
         "imagem": "img/imagens_unica/minhabiblioteca.jpg"
-    },                   
-    {
-        "nome": "Mestrado_ava",
-        "caminho": "https://ava.mustedu.com/",
-        "imagem": "img/mestrado_ava.jpg"
-    },  
-    {
-        "nome": "mestrado_pagamento",
-        "caminho": "https://must.orbundsis.com/",
-        "imagem": "img/mestrado_pagamento.jpg"
-    },   
-    {
-        "nome": "email_mestrado",
-        "caminho": "https://outlook.office.com/mail/?realm=student.mustedu.com&login_hint=dayvsonrodrigues27148@student.mustedu.com",
-        "imagem": "img/email_must.jpg"
-    },    
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },    
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    }, 
-    {
-        "nome": "Devmedia",
-        "caminho": "https://www.devmedia.com.br/",
-        "imagem": "img/imagens_estudos/devmedia.jpg"
-    },
-    {
-        "nome": "JSPro",
-        "caminho": "https://app.nutror.com/cursos",
-        "imagem": "img/imagens_estudos/jspro.jpg"
-    },
-    {
-        "nome": "Udemy",
-        "caminho": "https://www.udemy.com/home/my-courses/learning/",
-        "imagem": "img/imagens_estudos/udemy.jpg"
-    },
-        
-    {
-        "nome": "frontendpractice",
-        "caminho": "https://www.frontendpractice.com/",
-        "imagem": "img/imagens_estudos/frontend.jpg"
-    },    
-    {
-        "nome": "developerMozilla",
-        "caminho": "https://developer.mozilla.org/en-US/play",
-        "imagem": "img/imagens_estudos/developer.jpg"
-    },                 
-    {
-        "nome": "CS50",
-        "caminho": "https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home",
-        "imagem": "img/imagens_estudos/cs50.jpg"
-    },
-    {
-        "nome": "100Days",
-        "caminho": "https://100dayscss.com/days/1/",
-        "imagem": "img/imagens_estudos/100days.jpg"
-    },
-    {
-        "nome": "Solução100Days",
-        "caminho": "https://www.youtube.com/watch?v=1KJsFDMeMmY&list=PLn-80lNl1Pv0gTA4ZIsOMwvsZUAZT0q4F&index=1",
-        "imagem": "img/imagens_estudos/100dayssolucao.jpg"
-    },
-    {
-        "nome": "Github",
-        "caminho": "https://github.com/login",
-        "imagem": "img/imagens_estudos/github.jpg"
-    }, 
-     
-    {
-        "nome": "Chatgpt-",
-        "caminho": "https://chat.openai.com/auth/login",
-        "imagem": "img/imagens_estudos/chatgpt1.jpg"
-    },
-    {
-        "nome": "Hostinger",
-        "caminho": "https://hpanel.hostinger.com/",
-        "imagem": "img/hostinger.jpg"
-    },
-    {
-        "nome": "Figma",
-        "caminho": "https://www.figma.com/",
-        "imagem": "img/imagens_estudos/figma.jpg"
-    }, 
-    {
-        "nome": "Overleaf",
-        "caminho": "https://www.overleaf.com/project",
-        "imagem": "img/imagens_estudos/overleaf.jpg"
-    },   
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
     },
     
     {
@@ -251,47 +256,6 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    },     
-    {
-        "nome": "Hotmail",
-        "caminho": "https://outlook.live.com/mail/0/",
-        "imagem": "img/hotmail.jpg"
-    },
-    {
-        "nome": "Gmail",
-        "caminho": "https://mail.google.com/mail/u/0/#inbox",
-        "imagem": "img/gmail.jpg"
-    },   
-    {
-        "nome": "IBI",
-        "caminho": "https://ibitelecom.com.br/boletos/",
-        "imagem": "img/ibi.jpg"
-    },
-    {
-        "nome": "rdc",
-        "caminho": "https://rdcviagens.com.br/",
-        "imagem": "img/rdc.jpg"
-    },         
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },    
-    
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
     }, 
     {
         "nome": "---",
@@ -425,7 +389,47 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    }      
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }     
 ]
 
 
