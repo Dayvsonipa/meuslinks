@@ -76,7 +76,7 @@
     }, 
     {
         "nome": "prompts",
-        "caminho": "https://dayvson.com.br/prompts/",
+        "caminho": "https://dayvson.com.br/prompt/",
         "imagem": "img/prompts.jpg"
     },                  
     {
@@ -431,5 +431,6 @@
         "imagem": "img/emdesenvolvimento.jpg"
     }     
 ]
+
 
 
