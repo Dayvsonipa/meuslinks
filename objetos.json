@@ -200,7 +200,27 @@
         "nome": "Pincel Atomico",
         "caminho": "https://faculdadeunica.pincelatomico.net.br/",
         "imagem": "img/imagens_unica/pincel.jpg"
-    },     
+    }, 
+    {
+        "nome": "Engenharia de Software I",
+        "caminho": "",
+        "imagem": "img/imagens_unica/engenhariaDeSoftware_dezembro2025.jpg"
+    },
+    {
+        "nome": "Projeto Integrador III",
+        "caminho": "",
+        "imagem": "img/imagens_unica/projetoIntegrador3_novembro.jpg"
+    },
+    {
+        "nome": "Introdução à Ciência da Computação",
+        "caminho": "",
+        "imagem": "img/imagens_unica/IntroducaoCienciaComputacao_novembro2025.jpg"
+    },
+    {
+        "nome": "Introdução à Ciência da Computação",
+        "caminho": "https://drive.google.com/drive/folders/1NnCJ5GEwFNrqBU-csVa4K-3uGbJ3cqV9",
+        "imagem": "img/imagens_unica/IntroducaoCienciaComputacao_outubro2025.jpg"
+    },    
     {
         "nome": "Engenharia de Software II",
         "caminho": "https://drive.google.com/drive/folders/1DnkZEsYFq6ztdvDyY-NitIZ-HrQFliqC",
