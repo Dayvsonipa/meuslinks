@@ -205,15 +205,10 @@
         "nome": "Engenharia de Software I",
         "caminho": "",
         "imagem": "img/imagens_unica/engenhariaDeSoftware_dezembro2025.jpg"
-    },
-    {
-        "nome": "Projeto Integrador III",
-        "caminho": "",
-        "imagem": "img/imagens_unica/projetoIntegrador3_novembro.jpg"
-    },
+    },    
     {
         "nome": "Introdução à Ciência da Computação",
-        "caminho": "",
+        "caminho": "https://drive.google.com/drive/folders/1d70M07Lk90m8N_TrIS_if_9SSNFZrEWt",
         "imagem": "img/imagens_unica/IntroducaoCienciaComputacao_novembro2025.jpg"
     },
     {
@@ -451,5 +446,6 @@
         "imagem": "img/emdesenvolvimento.jpg"
     }     
 ]
+
 
 
