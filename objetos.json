@@ -202,9 +202,9 @@
         "imagem": "img/imagens_unica/pincel.jpg"
     }, 
     {
-        "nome": "Engenharia de Software I",
-        "caminho": "",
-        "imagem": "img/imagens_unica/engenhariaDeSoftware_dezembro2025.jpg"
+        "nome": "Banco de dados",
+        "caminho": "https://drive.google.com/drive/folders/15BKLv7ZSd72sIEwLzrIE6O-QEgeFErR-",
+        "imagem": "img/imagens_unica/banco_dados_dezembro2025.jpg"
     },    
     {
         "nome": "Introdução à Ciência da Computação",
