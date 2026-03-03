@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Horário — Dayvson</title>
+  <style>
+    :root{
+      --bg:#ffffff;
+      --card:#ffffff;
+      --text:#0f172a;
+      --muted:#64748b;
+      --line:#e2e8f0;
+      --head:#f8fafc;
+      --zebra:#fcfcfd;
+      --gap:#f1f5f9;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+      background:linear-gradient(180deg, var(--head), var(--bg));
+      color:var(--text);
+      padding:24px;
+    }
+    .wrap{
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:14px;
+      overflow:hidden;
+      box-shadow: 0 6px 18px rgba(15, 23, 42, .06);
+    }
+    header{
+      padding:16px 18px;
+      border-bottom:1px solid var(--line);
+      background:var(--head);
+      display:flex;
+      align-items:baseline;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    header h1{
+      margin:0;
+      font-size:16px;
+      letter-spacing:.6px;
+      text-transform:uppercase;
+    }
+    header span{
+      color:var(--muted);
+      font-size:13px;
+    }
+
+    .table-wrap{
+      overflow:auto;
+    }
+    table{
+      width:100%;
+      border-collapse:separate;
+      border-spacing:0;
+      min-width: 720px; /* ajuda no scroll em telas menores */
+    }
+    thead th{
+      position:sticky;
+      top:0;
+      background:var(--head);
+      color:var(--muted);
+      font-weight:600;
+      font-size:13px;
+      text-align:left;
+      padding:12px 14px;
+      border-bottom:1px solid var(--line);
+      white-space:nowrap;
+    }
+    tbody td{
+      padding:12px 14px;
+      border-bottom:1px solid var(--line);
+      vertical-align:middle;
+      font-size:14px;
+    }
+    
+    tbody tr:nth-child(odd){
+        background:#ffffff; /* linhas ímpares */
+    }
+
+    tbody tr:nth-child(even){
+        background:#f3f4f6; /* cinza bem suave */
+    }
+
+    /* Coluna de horário */
+    td.time{
+      width: 90px;
+      color:var(--muted);
+      font-variant-numeric: tabular-nums;
+      white-space:nowrap;
+    }
+
+    /* Intervalo */
+    /* Intervalo */
+    tr.break-row td{
+        background:#ffffff !important; /* branco puro */
+        color:var(--muted);
+        font-size:12px;
+        border-top:1px solid var(--line);
+        border-bottom:1px solid var(--line);
+        padding:14px;
+        text-align:center;
+        letter-spacing:.12em;
+        text-transform:uppercase;
+    }
+
+    /* Células vazias */
+    td.empty{
+      color:#94a3b8;
+    }
+
+    /* Ajuste mobile */
+    @media (max-width: 520px){
+      body{padding:16px}
+      header{padding:14px 14px}
+      header h1{font-size:15px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <h1>DAYVSON</h1>
+        <span>Horário semanal</span>
+      </header>
+
+      <div class="table-wrap">
+        <table aria-label="Tabela de horário">
+          <thead>
+            <tr>
+              <th>Hor</th>
+              <th>Seg</th>
+              <th>Ter</th>
+              <th>Qua</th>
+              <th>Qui</th>
+              <th>Sex</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="time">07:00</td>
+              <td>3º ÔMEGA/SENAI</td>
+              <td>1ª ÔMEGA/SENAI</td>
+              <td>1ª ÔMEGA/SENAI</td>
+              <td>3º ÔMEGA/SENAI</td>
+              <td>3º ÔMEGA/SENAI</td>
+            </tr>
+            <tr>
+              <td class="time">07:50</td>
+              <td>1ª ÔMEGA/SENAI</td>
+              <td>1ª ÔMEGA/SENAI</td>
+              <td>3º ÔMEGA/SENAI</td>
+              <td>1ª ÔMEGA/SENAI</td>
+              <td>3º ÔMEGA/SENAI</td>
+            </tr>
+            <tr>
+              <td class="time">08:40</td>
+              <td>1ª ÔMEGA/SENAI</td>
+              <td>1ª ÔMEGA/SENAI</td>
+              <td>3º ÔMEGA/SENAI</td>
+              <td>1ª ÔMEGA/SENAI</td>
+              <td>3º ÔMEGA/SENAI</td>
+            </tr>
+            <tr>
+              <td class="time">09:30</td>
+              <td>2º ÔMEGA/SENAI</td>
+              <td>2º ÔMEGA/SENAI</td>
+              <td>2º ÔMEGA/SENAI</td>
+              <td>2º ÔMEGA/SENAI</td>
+              <td>3º ÔMEGA/SENAI</td>
+            </tr>
+            <tr>
+              <td class="time">10:40</td>
+              <td>2º ÔMEGA/SENAI</td>
+              <td>2º ÔMEGA/SENAI</td>
+              <td>2º ÔMEGA/SENAI</td>
+              <td>2º ÔMEGA/SENAI</td>
+              <td>3º ÔMEGA/SENAI</td>
+            </tr>
+            <tr>
+              <td class="time">11:30</td>
+              <td>2º ÔMEGA/SENAI</td>
+              <td>2º ÔMEGA/SENAI</td>
+              <td>2º ÔMEGA/SENAI</td>
+              <td>2º ÔMEGA/SENAI</td>
+              <td>1º ÔMEGA/SENAI</td>
+            </tr>
+
+            <tr class="break-row">
+              <td colspan="6">Intervalo</td>
+            </tr>
+
+            <tr>
+              <td class="time">13:20</td>
+              <td>3º ÔMEGA/SENAI</td>
+              <td>3º ÔMEGA/SENAI</td>
+              <td class="empty">—</td>
+              <td class="empty">—</td>
+              <td>1º ÔMEGA/SENAI</td>
+            </tr>
+            <tr>
+              <td class="time">14:10</td>
+              <td>3º ÔMEGA/SENAI</td>
+              <td class="empty">—</td>
+              <td class="empty">—</td>
+              <td class="empty">—</td>
+              <td>1º ÔMEGA/SENAI</td>
+            </tr>
+            <tr>
+              <td class="time">15:20</td>
+              <td>1ª ÔMEGA/SENAI</td>
+              <td class="empty">—</td>
+              <td class="empty">—</td>
+              <td class="empty">—</td>
+              <td class="empty">—</td>
+            </tr>
+            <tr>
+              <td class="time">16:10</td>
+              <td class="empty">—</td>
+              <td class="empty">—</td>
+              <td class="empty">—</td>
+              <td class="empty">—</td>
+              <td class="empty">—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -75,6 +75,11 @@
         "imagem": "img/dayvson.jpg"
     }, 
     {
+        "nome": "horario_sesi",
+        "caminho": "horario.html",
+        "imagem": "img/horarios/horarios_2026.jpg"
+    },
+    {
         "nome": "prompts",
         "caminho": "https://dayvson.com.br/prompt/",
         "imagem": "img/prompts.jpg"
