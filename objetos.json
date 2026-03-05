@@ -75,9 +75,14 @@
         "imagem": "img/dayvson.jpg"
     }, 
     {
-        "nome": "horario_sesi",
+        "nome": "lattes",
+        "caminho": "https://lattes.cnpq.br/7147126380366082",
+        "imagem": "img/imagens_unica/plataforma_lattes.jpg"
+    },
+    {
+        "nome": "horarios_sesi",
         "caminho": "horario.html",
-        "imagem": "img/horarios/horarios_2026.jpg"
+        "imagem": "img/imagens_unica/horarios_sesi.jpg"
     },
     {
         "nome": "prompts",
@@ -286,12 +291,7 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    },
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    }, 
+    },     
     {
         "nome": "---",
         "caminho": "",
