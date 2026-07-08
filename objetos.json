@@ -1,0 +1,487 @@
+[
+    {
+        "nome": "netNucleo",
+        "caminho": "http://netnucleo.com.br/senai/",
+        "imagem": "img_senai/img01_netnucleo.jpg"
+    },
+    {
+        "nome": "email SENAI",
+        "caminho": "https://outlook.office.com/mail/inbox/id/AAQkAGRiMDE4Mjc5LTUxZmEtNGJhYS04NmJkLTIxOTg4OTY2ODliNwAQAOibcKnWiRhBk%2BNhfZqRpBg%3D",
+        "imagem": "img_senai/img02_emailsenai.jpg"
+    },
+    {
+        "nome": "intranet",
+        "caminho": "https://nossaintranet.fiemg.com.br/",
+        "imagem": "img_senai/img03_intranet.jpg"
+    },
+    {
+        "nome": "lugar da gente",
+        "caminho": "https://pessoas.fiemg.com.br/lugardagente",
+        "imagem": "img_senai/img04_lugardagente.jpg"
+    },
+    {
+        "nome": "portal Docente",
+        "caminho": "https://portaldocente.fiemg.com.br/FrameHTML/Web/App/Edu/PortalDoProfessor/#/portal/class/diary",
+        "imagem": "img_senai/img05_portaldocente.jpg"
+    },        
+    {
+        "nome": "meu Senai",
+        "caminho": "https://iam.senai.br/authenticationendpoint/login.do?RelayState=%2Fdn%2F&commonAuthCallerPath=%2Fsamlsso&forceAuth=false&passiveAuth=false&tenantDomain=carbon.super&sessionDataKey=e6f3e3ab-292b-4fc0-b116-e51a7822e2e0&relyingParty=https%3A%2F%2Fsenaiead.senai.br%2Fdn&type=samlsso&sp=LMS-SP-DN&isSaaSApp=false&authenticators=GoogleOIDCAuthenticator%3Agoogleoauth.hub%3BBasicAuthenticator%3ALOCAL",
+        "imagem": "img_senai/img06_meusenai.jpg"
+    },    
+    {
+        "nome": "Grand Prix",
+        "caminho": "https://plataforma.gpinovacao.senai.br/",
+        "imagem": "img_senai/img07_grandprix.jpg"
+    },
+    {
+        "nome": "EAD",
+        "caminho": "https://mg.senaiead.senai.br/login?dir=%2F&hash=portal",
+        "imagem": "img_senai/img08_senaiead.jpg"
+    },
+    {
+        "nome": "unIndustria",
+        "caminho": "https://ead.sesieducacao.com.br/uc/#portal",
+        "imagem": "img_senai/img09_unindustria.jpg"
+    },
+    {
+        "nome": "Classroom",
+        "caminho": "https://classroom.google.com/",
+        "imagem": "img_senai/img10_classroom.jpg"
+    },
+    {
+        "nome": "SAEP - teórico",
+        "caminho": "https://siac.senai.br/login",
+        "imagem": "img_senai/img11_saepteorico.jpg"
+    },
+    {
+        "nome": "SAEP - prático",
+        "caminho": "https://sap.senai.br/login",
+        "imagem": "img_senai/img12_saeppratico.jpg"
+    },
+    {
+        "nome": "SELFBOOK",
+        "caminho": "https://selfbooking.lemontech.com.br/Login.enviaEmail.mtw",
+        "imagem": "img_senai/img13_selfbook.jpg"
+    },  
+    {
+        "nome": "appsheet",
+        "caminho": "https://www.appsheet.com/Home/Apps",
+        "imagem": "img_senai/img14_appsheet.jpg"
+    },
+    {
+        "nome": "dayvson",
+        "caminho": "https://dayvson.com.br/",
+        "imagem": "img_dayvson/dayvson.jpg"
+    },
+    {
+        "nome": "lattes",
+        "caminho": "https://lattes.cnpq.br/7147126380366082",
+        "imagem": "img_dayvson/plataforma_lattes.jpg"
+    },         
+    {
+        "nome": "Hotmail",
+        "caminho": "https://outlook.live.com/mail/0/",
+        "imagem": "img_dayvson/hotmail.jpg"
+    },
+    {
+        "nome": "Gmail",
+        "caminho": "https://mail.google.com/mail/u/0/#inbox",
+        "imagem": "img_dayvson/gmail.jpg"
+    },   
+    {
+        "nome": "IBI",
+        "caminho": "https://ibitelecom.com.br/boletos/",
+        "imagem": "img_dayvson/ibi.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },    
+    {
+        "nome": "tarefas",
+        "caminho": "https://dayvson.com.br/tarefas/index.php",
+        "imagem": "img_sesi/img01_controle_tarefas.jpg"
+    },     
+    {
+        "nome": "horarios_sesi",
+        "caminho": "sites/horario_semanal.html",
+        "imagem": "img_sesi/img02_horario_semanal.jpg"
+    },
+    {
+        "nome": "horario_anual",
+        "caminho": "sites/horario_anual.html",
+        "imagem": "img_sesi/img03_horario_anual.jpg"
+    },
+    {
+        "nome": "lista_exercicios",
+        "caminho": "https://dayvsonipa.github.io/lista_atividades/",
+        "imagem": "img_sesi/img04_lista_exercicios.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },                   
+    {
+        "nome": "Mestrado_ava",
+        "caminho": "https://ava.mustedu.com/",
+        "imagem": "img_must/mestrado_ava.jpg"
+    },  
+    {
+        "nome": "mestrado_pagamento",
+        "caminho": "https://must.orbundsis.com/",
+        "imagem": "img_must/mestrado_pagamento.jpg"
+    },   
+    {
+        "nome": "email_mestrado",
+        "caminho": "https://outlook.office.com/mail/?realm=student.mustedu.com&login_hint=dayvsonrodrigues27148@student.mustedu.com",
+        "imagem": "img_must/email_must.jpg"
+    }, 
+    {
+        "nome": "material_mestrado",
+        "caminho": "https://drive.google.com/drive/folders/1vLXiRSb06wwgJ6kkSK8_1XzOWgdDPu8A",
+        "imagem": "img_must/mestrado_material_didatico.jpg"
+    },   
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "Github",
+        "caminho": "https://github.com/login",
+        "imagem": "img_diversas/github.jpg"
+    }, 
+     
+    {
+        "nome": "Chatgpt-",
+        "caminho": "https://chat.openai.com/auth/login",
+        "imagem": "img_diversas/chatgpt1.jpg"
+    },
+    {
+        "nome": "Hostinger",
+        "caminho": "https://hpanel.hostinger.com/",
+        "imagem": "img_diversas/hostinger.jpg"
+    },
+    {
+        "nome": "Figma",
+        "caminho": "https://www.figma.com/",
+        "imagem": "img_diversas/figma.jpg"
+    }, 
+    {
+        "nome": "Overleaf",
+        "caminho": "https://www.overleaf.com/project",
+        "imagem": "img_diversas/overleaf.jpg"
+    }, 
+    {
+        "nome": "Devmedia",
+        "caminho": "https://www.devmedia.com.br/",
+        "imagem": "img_diversas/devmedia.jpg"
+    },
+    {
+        "nome": "JSPro",
+        "caminho": "https://app.nutror.com/cursos",
+        "imagem": "img_diversas/jspro.jpg"
+    },
+    {
+        "nome": "Udemy",
+        "caminho": "https://www.udemy.com/home/my-courses/learning/",
+        "imagem": "img_diversas/udemy.jpg"
+    },
+        
+    {
+        "nome": "frontendpractice",
+        "caminho": "https://www.frontendpractice.com/",
+        "imagem": "img_diversas/frontend.jpg"
+    },    
+    {
+        "nome": "developerMozilla",
+        "caminho": "https://developer.mozilla.org/en-US/play",
+        "imagem": "img_diversas/developer.jpg"
+    },                 
+    {
+        "nome": "CS50",
+        "caminho": "https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home",
+        "imagem": "img_diversas/cs50.jpg"
+    },
+    {
+        "nome": "100Days",
+        "caminho": "https://100dayscss.com/days/1/",
+        "imagem": "img_diversas/100days.jpg"
+    },
+    {
+        "nome": "Solução100Days",
+        "caminho": "https://www.youtube.com/watch?v=1KJsFDMeMmY&list=PLn-80lNl1Pv0gTA4ZIsOMwvsZUAZT0q4F&index=1",
+        "imagem": "img_diversas/100dayssolucao.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },      
+    {
+        "nome": "ProMinas",
+        "caminho": "https://professores.institutoprominas.com.br/",
+        "imagem": "img_unica/img01_prominas.jpg"
+    },
+    {
+        "nome": "Biblioteca Virtual",
+        "caminho": "https://plataforma.bvirtual.com.br/Account/Login?redirectUrl=%2F",
+        "imagem": "img_unica/img02_bibliotecaVirtual.jpg"
+    },
+    {
+        "nome": "Minha Biblioteca",
+        "caminho": "https://dliportal.zbra.com.br/Login.aspx?key=unica",
+        "imagem": "img_unica/img03_minhabiblioteca.jpg"
+    }, 
+    {
+        "nome": "Arquitetura e Organização de Computadores",
+        "caminho": "https://drive.google.com/drive/folders/1e6W4S4W-HXWOtvdMnDqha2KpLNEat-Ym",
+        "imagem": "img_unica/img17_aoc.jpg"
+    },
+    {
+        "nome": "Projeto Integrador 5",
+        "caminho": "",
+        "imagem": "img_unica/img16_pi5.jpg"
+    },     
+    {
+        "nome": "Sistemas de Informação Gerencial",
+        "caminho": "https://drive.google.com/drive/u/0/folders/1YDwXSA1SaNfoQAra4dUE4xhwp687dtVK",
+        "imagem": "img_unica/img15_sig.jpg"
+    }, 
+    {
+        "nome": "Gestão do Conhecimento",
+        "caminho": "https://drive.google.com/drive/folders/1PPRTd4ugTAs50ewy7-2SZaOaKoVHl7kc",
+        "imagem": "img_unica/img14_gestao_conhecimento.jpg"
+    }, 
+    {
+        "nome": "Banco de dados",
+        "caminho": "https://drive.google.com/drive/folders/15BKLv7ZSd72sIEwLzrIE6O-QEgeFErR-",
+        "imagem": "img_unica/img13_bancodedadosmarco.jpg"
+    },    
+    {
+        "nome": "Introdução à Ciência da Computação",
+        "caminho": "https://drive.google.com/drive/folders/1d70M07Lk90m8N_TrIS_if_9SSNFZrEWt",
+        "imagem": "img_unica/img12_IntroducaoCienciaComputacao_novembro2025.jpg"
+    },
+    {
+        "nome": "Introdução à Ciência da Computação",
+        "caminho": "https://drive.google.com/drive/folders/1NnCJ5GEwFNrqBU-csVa4K-3uGbJ3cqV9",
+        "imagem": "img_unica/img11_IntroducaoCienciaComputacao_outubro2025.jpg"
+    },    
+    {
+        "nome": "Engenharia de Software II",
+        "caminho": "https://drive.google.com/drive/folders/1DnkZEsYFq6ztdvDyY-NitIZ-HrQFliqC",
+        "imagem": "img_unica/img10_engenhariaSoftware2.jpg"
+    },                    
+    {
+        "nome": "Projeto Integrador 3",
+        "caminho": "",
+        "imagem": "img_unica/img09_projetoIntegrador3.jpg"
+    },
+    {
+        "nome": "Drive Banco de Dados",
+        "caminho": "https://drive.google.com/drive/u/0/folders/1vvT78N3vMw8q-EpH8PwYDSc40SWKb0DG",
+        "imagem": "img_unica/img08_banco_dados_dezembro2025.jpg"
+    },        
+    {
+        "nome": "Drive Engenharia de Software",
+        "caminho": "https://drive.google.com/drive/folders/14xUSvZq_OJdJ5ELHBnRktkV8cdoIhjs_",
+        "imagem": "img_unica/img07_engenhariaSoftwareNovembro.jpg"
+    },    
+    {
+        "nome": "Drive Pesquisa Operacional",
+        "caminho": "https://drive.google.com/drive/folders/1uRKLOIF4m8UtK-MlqyEqNSsAXthXviNo",
+        "imagem": "img_unica/img06_pesquisaOperacionalSetembro.jpg"
+    },
+    {
+        "nome": "Drive Pesquisa Operacional",
+        "caminho": "https://drive.google.com/drive/folders/1nbilvvNo_iR0uj_t_pbV3T2rK1ibJZRm",
+        "imagem": "img_unica/img05_pesquisaOperacionalAgosto.jpg"
+    },
+    {
+        "nome": "Drive Programação II",
+        "caminho": "https://drive.google.com/drive/u/0/folders/1SvoP2sAywDyFFIlQm8naRyWOdAebLZtG",
+        "imagem": "img_unica/img04_programaçãoParaComputadoresIIJunho.jpg"
+    },
+    
+    
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },     
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },     
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }
+    ,
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }
+    ,
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }
+    ,
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }, 
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    },
+    {
+        "nome": "---",
+        "caminho": "",
+        "imagem": "img/emdesenvolvimento.jpg"
+    }     
+]
+
+
+

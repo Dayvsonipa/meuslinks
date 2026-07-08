@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horário Anual 2026 - Dayvson</title>
+  <style>
+    :root{
+      --azul:#2f80c9;
+      --azul-escuro:#1f5f99;
+      --verde:#d9f7b7;
+      --verde-forte:#45a931;
+      --cinza:#f4f7fb;
+      --borda:#d8e1ec;
+      --texto:#172033;
+      --muted:#65758b;
+      --alerta:#ffe4df;
+      --feriado:#d52313;
+      --recesso:#f9b5a9;
+      --card:#ffffff;
+    }
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:linear-gradient(180deg,#eef5fb 0%,#ffffff 55%);
+      color:var(--texto);
+    }
+
+    header{
+      padding:24px 18px 14px;
+      background:var(--azul-escuro);
+      color:white;
+      border-bottom:5px solid #17466f;
+    }
+
+    header .wrap, main{max-width:1480px;margin:0 auto}
+    h1{margin:0;font-size:clamp(24px,4vw,40px);letter-spacing:-.5px}
+    header p{margin:8px 0 0;color:#eaf4ff;font-size:16px}
+
+    main{padding:18px}
+
+    .painel{
+      display:grid;
+      grid-template-columns: 3.25fr 1fr;
+      gap:20px;
+      align-items:start;
+    }
+
+    @media(max-width:980px){.painel{grid-template-columns:1fr}}
+
+    .box{
+      background:var(--card);
+      border:1px solid var(--borda);
+      border-radius:16px;
+      box-shadow:0 10px 24px rgba(23,32,51,.08);
+      overflow:hidden;
+    }
+
+    .box-title{
+      padding:14px 16px;
+      border-bottom:1px solid var(--borda);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      background:#fff;
+    }
+    .box-title h2{margin:0;font-size:20px}
+    .box-title small{color:var(--muted)}
+    .painel > .box:nth-child(2) .box-title{
+      padding:10px 14px;
+    }
+    .painel > .box:nth-child(2) .box-title h2{
+      font-size:18px;
+    }
+    .painel > .box:nth-child(2) .box-title small{
+      font-size:13px;
+    }
+
+    .controles{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      padding:14px 16px;
+      background:#f8fbff;
+      border-bottom:1px solid var(--borda);
+    }
+    button, select, input{
+      font:inherit;
+      border:1px solid var(--borda);
+      border-radius:10px;
+      padding:10px 12px;
+      background:white;
+      color:var(--texto);
+    }
+    button{
+      cursor:pointer;
+      background:var(--azul);
+      color:white;
+      border-color:var(--azul);
+      font-weight:700;
+    }
+    button.secondary{background:white;color:var(--azul);}
+
+    .calendarios{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(260px,1fr));
+      gap:16px;
+      padding:18px;
+    }
+    @media(max-width:1200px){.calendarios{grid-template-columns:repeat(2,minmax(240px,1fr));}}
+    @media(max-width:760px){.calendarios{grid-template-columns:1fr}}
+
+    .mes{
+      border:1px solid var(--borda);
+      border-radius:12px;
+      overflow:hidden;
+      background:#fff;
+    }
+    .mes h3{
+      margin:0;
+      text-align:center;
+      padding:7px;
+      background:var(--azul);
+      color:white;
+      font-size:16px;
+      letter-spacing:.5px;
+    }
+    .semana,.dias{
+      display:grid;
+      grid-template-columns:.7fr 1fr 1fr 1fr 1fr 1fr .7fr;
+    }
+    .semana div{
+      background:#b8d6ee;
+      color:#29384b;
+      text-align:center;
+      font-weight:700;
+      padding:4px 2px;
+      border-right:1px solid #9fc3df;
+      font-size:13px;
+    }
+    .dia{
+      min-height:48px;
+      border-right:1px solid #e0e7ef;
+      border-top:1px solid #e0e7ef;
+      padding:4px 5px;
+      position:relative;
+      background:white;
+      cursor:pointer;
+      transition:.15s;
+      display:flex;
+      flex-direction:column;
+      justify-content:flex-start;
+      align-items:flex-start;
+      gap:2px;
+    }
+    .dia:hover{outline:3px solid rgba(47,128,201,.25);z-index:2}
+    .dia.vazio{background:#fafafa;cursor:default}
+    .dia.letivo{background:var(--verde)}
+    .dia.feriado{background:var(--feriado);color:white;font-weight:700}
+    .dia.recesso{background:var(--recesso)}
+    .dia.selecionado{outline:3px solid #163f65;z-index:3}
+    .dia .num{
+      font-weight:700;
+      font-size:13px;
+      line-height:1;
+    }
+    .dia .qtd{
+      display:block;
+      background:transparent;
+      border:none;
+      border-radius:0;
+      padding:0;
+      font-size:11px;
+      font-weight:700;
+      color:#4a4f57;
+      line-height:1;
+      box-shadow:none;
+      max-width:100%;
+      text-align:center;
+      white-space:nowrap;
+      position:absolute;
+      left:50%;
+      top:55%;
+      transform:translate(-50%, -50%);
+    }
+    .dia.feriado .qtd{display:none}
+    .rodape-mes{
+      background:var(--azul);
+      color:white;
+      font-weight:700;
+      text-align:center;
+      padding:4px;
+      font-size:13px;
+    }
+    .obs-mes{
+      color:#d50000;
+      font-weight:700;
+      text-align:center;
+      font-size:12px;
+      min-height:18px;
+      padding:3px 6px 6px;
+    }
+
+    .detalhe{padding:10px}
+    .resumo-dia{
+      background:#f8fbff;
+      border:1px solid var(--borda);
+      border-radius:12px;
+      padding:10px 12px;
+      margin-bottom:8px;
+    }
+    .resumo-dia h3{margin:0 0 3px;font-size:16px;line-height:1.2}
+    .resumo-dia p{margin:0;color:var(--muted);font-size:12px;line-height:1.25}
+
+    .aula{
+      border:1px solid var(--borda);
+      border-left:5px solid var(--azul);
+      border-radius:12px;
+      padding:8px 9px;
+      margin:7px 0;
+      background:white;
+      display:grid;
+      grid-template-columns:58px 1fr;
+      grid-template-areas:
+        'hora turma'
+        'disc disc';
+      gap:6px 8px;
+      align-items:center;
+      min-height:auto;
+    }
+    .aula.turma-1{border-left-color:#2f80c9}
+    .aula.turma-2{border-left-color:#36a853}
+    .aula.turma-3{border-left-color:#8e65c9}
+    .hora{
+      font-size:14px;
+      font-weight:800;
+      color:#1f5f99;
+      white-space:nowrap;
+      grid-area:hora;
+    }
+    .turma{
+      font-weight:800;
+      text-align:center;
+      border-radius:12px;
+      padding:8px 10px;
+      background:#eef5fb;
+      color:#163f65;
+      line-height:1.15;
+      word-break:keep-all;
+      font-size:11px;
+      width:100%;
+      grid-area:turma;
+    }
+    .disciplina{
+      font-weight:700;
+      font-size:clamp(13px,1.1vw,15px);
+      line-height:1.18;
+      margin-bottom:0;
+      grid-area:disc;
+    }
+    .periodo-disciplina{
+      display:none;
+    }
+    .conteudo-aula{grid-area:disc;}
+
+    @media(max-width:720px){
+      .aula{grid-template-columns:76px 1fr;}
+      .aula .conteudo-aula{grid-area:disc}
+    }
+
+    .sem-aula{
+      padding:24px;
+      text-align:center;
+      color:var(--muted);
+      background:#fafcff;
+      border:1px dashed var(--borda);
+      border-radius:14px;
+    }
+
+    .tabelas{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:16px;
+      margin-top:18px;
+    }
+    @media(max-width:1100px){.tabelas{grid-template-columns:1fr}}
+    table{width:100%;border-collapse:collapse;font-size:14px;background:white}
+    th{background:var(--azul);color:white;padding:10px;border:1px solid #236aa8}
+    td{padding:8px;border:1px solid var(--borda);vertical-align:top}
+    tr:nth-child(even) td{background:#f7fbff}
+    .tag{display:inline;color:inherit;background:transparent;padding:0;border-radius:0;font-weight:700;font-size:14px}
+    .nota{font-size:13px;color:var(--muted);line-height:1.45;padding:12px 16px;background:#fff8e8;border-top:1px solid #f0dfba}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Horário Anual — 2º Semestre de 2026</h1>
+      <p>DAYVSON · visualização diária das aulas por turma, disciplina e horário.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="painel">
+      <div class="box">
+        <div class="box-title">
+          <h2>Calendário letivo</h2>
+          <small>Julho a dezembro</small>
+        </div>
+        <div class="controles">
+          <button id="hojeBtn">Ir para hoje</button>
+          <button class="secondary" id="primeiroBtn">01/07/2026</button>
+          <select id="filtroTurma">
+            <option value="todas">Todas as turmas</option>
+            <option value="1">1º ÔMEGA/SENAI</option>
+            <option value="2">2º ÔMEGA/SENAI</option>
+            <option value="3">3º ÔMEGA/SENAI</option>
+          </select>
+        </div>
+        <div id="calendarios" class="calendarios"></div>
+        <div class="nota">
+          Base montada a partir das imagens: calendário letivo de julho a dezembro, horário semanal e períodos das disciplinas. Para usar com os arquivos Excel reais, basta substituir os arrays de dados no JavaScript por leitura/JSON exportado das planilhas.
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-title">
+          <h2>Aulas do dia</h2>
+          <small id="statusData">Selecione uma data</small>
+        </div>
+        <div id="detalhe" class="detalhe"></div>
+      </div>
+    </section>
+
+    <section class="tabelas">
+      <div class="box">
+        <div class="box-title"><h2>1º Período</h2><small>1ª série</small></div>
+        <div style="overflow:auto"><table id="tabela1"></table></div>
+      </div>
+      <div class="box">
+        <div class="box-title"><h2>2º Período</h2><small>2ª série</small></div>
+        <div style="overflow:auto"><table id="tabela2"></table></div>
+      </div>
+      <div class="box">
+        <div class="box-title"><h2>3º Período</h2><small>3ª série</small></div>
+        <div style="overflow:auto"><table id="tabela3"></table></div>
+      </div>
+    </section>
+  </main>
+
+<script>
+const meses = [
+  {m:6, nome:'JULHO', letivos:[1,2,3,6,7,8,9,10,13,14,15], feriados:[31], recesso:[16,17,20,21,22,23,24,27,28,29,30], obs:'31 - início do semestre/ano letivo'},
+  {m:7, nome:'AGOSTO', letivos:[3,4,5,6,7,10,11,12,13,14,17,18,19,20,21,24,25,26,27,28,31], feriados:[], recesso:[], obs:''},
+  {m:8, nome:'SETEMBRO', letivos:[1,2,3,4,8,9,10,11,14,15,16,17,18,21,22,23,24,25,28,29,30], feriados:[7], recesso:[], obs:'7 - Independência do Brasil'},
+  {m:9, nome:'OUTUBRO', letivos:[1,2,5,6,7,8,9,19,20,21,22,23,26,27,28,29,30], feriados:[12,13,14,15,16], recesso:[], obs:'12 - N. Sra. Aparecida · 14 - Dia do Professor · 15 - aniversário da cidade'},
+  {m:10, nome:'NOVEMBRO', letivos:[3,4,5,6,9,10,11,12,13,16,17,18,19,23,24,25,26,27,30], feriados:[2,20], recesso:[], obs:'2 - Finados · 15 - Proclamação da República · 20 - Consciência Negra'},
+  {m:11, nome:'DEZEMBRO', letivos:[1,2,3,4,7,8,9,10,11,14,15], feriados:[25], recesso:[16,17,18,21,22,23,24,26,27,28,29,30,31], obs:'25 - Natal'}
+];
+
+const disciplinas = {
+  1: [
+    ['Lógica de Programação I','2026-06-08','2026-09-17','120 h','144 aulas'],
+    ['Projeto de Inovação: Processo Criativo – Indústria 4.0, Lean e Ideação','2026-09-17','2026-10-06','30 h','36 aulas'],
+    ['Autoconhecimento','2026-10-06','2026-10-30','30 h','36 aulas'],
+    ['Mundo do Trabalho I','2026-11-03','2026-12-15','60 h','72 aulas']
+  ],
+  2: [
+    ['Internet das Coisas','2026-04-16','2026-07-07','110 h','132 aulas'],
+    ['Programação de Aplicativos','2026-07-08','2026-09-28','95 h','114 aulas'],
+    ['Projeto de Inovação: Modelagem de Projetos – Design Thinking e Canvas','2026-09-29','2026-10-22','30 h','36 aulas'],
+    ['Mundo do Trabalho II','2026-10-26','2026-12-14','70 h','84 aulas']
+  ],
+  3: [
+    ['Desenvolvimento de Sistemas','2026-03-27','2026-07-03','125 h','150 aulas'],
+    ['Teste de Sistemas','2026-07-03','2026-08-31','60 h','72 aulas'],
+    ['Implantação de Sistemas','2026-08-31','2026-09-23','30 h','36 aulas'],
+    ['Manutenção de Sistemas','2026-09-23','2026-10-09','30 h','36 aulas'],
+    ['Projeto de Inovação: Mindset Empreendedor e Prototipação','2026-10-15','2026-11-06','30 h','36 aulas'],
+    ['Projeto de Vida e Carreira','2026-11-06','2026-12-07','40 h','48 aulas'],
+    ['Projeto de Inovação: Trabalho de Conclusão do Curso','2026-12-07','2026-12-15','15 h','18 aulas']
+  ]
+};
+
+const horario = {
+  1: [ // segunda
+    ['07:00',3],['07:50',1],['08:40',1],['09:30',2],['10:40',2],['11:30',2],['13:20',3],['14:10',3],['15:20',1]
+  ],
+  2: [ // terça
+    ['07:00',1],['07:50',1],['08:40',1],['09:30',2],['10:40',2],['11:30',2],['13:20',3]
+  ],
+  3: [ // quarta
+    ['07:00',1],['07:50',3],['08:40',3],['09:30',2],['10:40',2],['11:30',2]
+  ],
+  4: [ // quinta
+    ['07:00',3],['07:50',1],['08:40',1],['09:30',2],['10:40',2],['11:30',2]
+  ],
+  5: [ // sexta
+    ['07:00',3],['07:50',3],['08:40',3],['09:30',3],['10:40',3],['11:30',1],['13:20',1],['14:10',1]
+  ]
+};
+
+const nomesTurmas = {1:'1º ÔMEGA',2:'2º ÔMEGA',3:'3º ÔMEGA'};
+const nomesDias = ['Domingo','Segunda-feira','Terça-feira','Quarta-feira','Quinta-feira','Sexta-feira','Sábado'];
+let selecionada = '2026-07-01';
+
+function dataISO(ano, mes, dia){ return `${ano}-${String(mes+1).padStart(2,'0')}-${String(dia).padStart(2,'0')}`; }
+function dt(iso){ const [a,m,d]=iso.split('-').map(Number); return new Date(a,m-1,d); }
+function fmt(iso){ const [a,m,d]=iso.split('-'); return `${d}/${m}/${a}`; }
+function entre(iso, ini, fim){ return iso >= ini && iso <= fim; }
+
+function disciplinaDaTurma(turma, iso){
+  const lista = disciplinas[turma] || [];
+  const item = lista.find(d => entre(iso,d[1],d[2]));
+  if(!item) return null;
+  return {nome:item[0], inicio:item[1], fim:item[2], carga:item[3], aulas:item[4]};
+}
+
+function infoDia(iso){
+  const d = dt(iso);
+  const mesInfo = meses.find(x=>x.m===d.getMonth());
+  if(!mesInfo) return {tipo:'fora', aulas:[]};
+  const dia = d.getDate();
+  const dow = d.getDay();
+  const letivo = mesInfo.letivos.includes(dia);
+  const feriado = mesInfo.feriados.includes(dia);
+  const recesso = mesInfo.recesso.includes(dia);
+  if(!letivo) return {tipo:feriado?'feriado':recesso?'recesso':'nao-letivo', aulas:[]};
+
+  const aulas = (horario[dow] || []).map(([hora,turma])=>{
+    const disc = disciplinaDaTurma(turma, iso);
+    return disc ? {hora,turma,disciplina:disc.nome,inicio:disc.inicio,fim:disc.fim,carga:disc.carga,aulas:disc.aulas} : null;
+  }).filter(Boolean);
+  return {tipo:'letivo', aulas};
+}
+
+function renderCalendarios(){
+  const root = document.getElementById('calendarios');
+  root.innerHTML = '';
+  meses.forEach(mes=>{
+    const box = document.createElement('div');
+    box.className = 'mes';
+    box.innerHTML = `<h3>${mes.nome}</h3><div class="semana"><div>D</div><div>S</div><div>T</div><div>Q</div><div>Q</div><div>S</div><div>S</div></div><div class="dias"></div><div class="rodape-mes">DIAS LETIVOS: ${mes.letivos.length}</div><div class="obs-mes">${mes.obs || '&nbsp;'}</div>`;
+    const dias = box.querySelector('.dias');
+    const primeiro = new Date(2026, mes.m, 1).getDay();
+    const total = new Date(2026, mes.m+1, 0).getDate();
+    for(let i=0;i<primeiro;i++){
+      const vazio=document.createElement('div'); vazio.className='dia vazio'; dias.appendChild(vazio);
+    }
+    for(let dia=1;dia<=total;dia++){
+      const iso = dataISO(2026,mes.m,dia);
+      const info = infoDia(iso);
+      const el = document.createElement('div');
+      el.className = `dia ${info.tipo === 'letivo' ? 'letivo' : info.tipo}` + (iso===selecionada?' selecionado':'');
+      el.dataset.iso = iso;
+      const qtd = info.aulas.length ? `<span class="qtd">${info.aulas.length} aulas</span>` : '';
+      el.innerHTML = `<span class="num">${String(dia).padStart(2,'0')}</span>${qtd}`;
+      el.onclick = () => { selecionada = iso; renderCalendarios(); renderDetalhe(); };
+      dias.appendChild(el);
+    }
+    root.appendChild(box);
+  });
+}
+
+function renderDetalhe(){
+  const filtro = document.getElementById('filtroTurma').value;
+  const info = infoDia(selecionada);
+  const d = dt(selecionada);
+  document.getElementById('statusData').textContent = fmt(selecionada);
+  const root = document.getElementById('detalhe');
+  let aulas = info.aulas;
+  if(filtro !== 'todas') aulas = aulas.filter(a => String(a.turma) === filtro);
+
+  let html = `<div class="resumo-dia"><h3>${nomesDias[d.getDay()]}, ${fmt(selecionada)}</h3>`;
+  if(info.tipo === 'letivo') html += `<p>Dia letivo. ${aulas.length} aula(s) encontrada(s)${filtro !== 'todas' ? ' para a turma selecionada' : ''}.</p></div>`;
+  else if(info.tipo === 'feriado') html += `<p>Feriado / sem aulas no controle.</p></div>`;
+  else if(info.tipo === 'recesso') html += `<p>Recesso / férias escolares no controle.</p></div>`;
+  else html += `<p>Dia não letivo ou sem aulas lançadas no calendário.</p></div>`;
+
+  if(!aulas.length){
+    html += `<div class="sem-aula">Nenhuma aula para exibir nesta data.</div>`;
+  } else {
+    aulas.forEach(a=>{
+      html += `<div class="aula turma-${a.turma}">
+        <div class="hora">${a.hora}</div>
+        <div class="turma">${nomesTurmas[a.turma]}</div>
+        <div class="conteudo-aula"><div class="disciplina">${a.disciplina}</div><div class="periodo-disciplina"></div></div>
+      </div>`;
+    });
+  }
+  root.innerHTML = html;
+}
+
+function renderTabela(id, turma){
+  const linhas = disciplinas[turma].map(d=>{
+    const aulasNum = String(d[4]).replace(/\s*aulas?/i,'');
+    return `<tr><td>${d[0]}</td><td>${d[3]}</td><td>${aulasNum}</td><td>${fmt(d[1])} - ${fmt(d[2])}</td></tr>`;
+  }).join('');
+  document.getElementById(id).innerHTML = `<thead><tr><th>Disciplina</th><th>Carga</th><th>Aulas</th><th>Período</th></tr></thead><tbody>${linhas}</tbody>`;
+}
+
+document.getElementById('filtroTurma').onchange = renderDetalhe;
+document.getElementById('primeiroBtn').onclick = ()=>{selecionada='2026-07-01';renderCalendarios();renderDetalhe();};
+document.getElementById('hojeBtn').onclick = ()=>{
+  const hoje = new Date();
+  const iso = dataISO(hoje.getFullYear(), hoje.getMonth(), hoje.getDate());
+  selecionada = (iso >= '2026-07-01' && iso <= '2026-12-31') ? iso : '2026-07-01';
+  renderCalendarios();renderDetalhe();
+};
+
+renderTabela('tabela1',1);
+renderTabela('tabela2',2);
+renderTabela('tabela3',3);
+renderCalendarios();
+renderDetalhe();
+</script>
+</body>
+</html>
