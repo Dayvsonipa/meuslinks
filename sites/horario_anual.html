@@ -405,9 +405,23 @@ const horario = {
 
 const nomesTurmas = {1:'1º ÔMEGA',2:'2º ÔMEGA',3:'3º ÔMEGA'};
 const nomesDias = ['Domingo','Segunda-feira','Terça-feira','Quarta-feira','Quinta-feira','Sexta-feira','Sábado'];
-let selecionada = '2026-07-01';
+const INICIO_CALENDARIO = '2026-07-01';
+const FIM_CALENDARIO = '2026-12-31';
 
 function dataISO(ano, mes, dia){ return `${ano}-${String(mes+1).padStart(2,'0')}-${String(dia).padStart(2,'0')}`; }
+
+function hojeISO(){
+  const hoje = new Date();
+  return dataISO(hoje.getFullYear(), hoje.getMonth(), hoje.getDate());
+}
+
+function dataInicial(){
+  const hoje = hojeISO();
+  return (hoje >= INICIO_CALENDARIO && hoje <= FIM_CALENDARIO) ? hoje : INICIO_CALENDARIO;
+}
+
+let selecionada = dataInicial();
+
 function dt(iso){ const [a,m,d]=iso.split('-').map(Number); return new Date(a,m-1,d); }
 function fmt(iso){ const [a,m,d]=iso.split('-'); return `${d}/${m}/${a}`; }
 function entre(iso, ini, fim){ return iso >= ini && iso <= fim; }
@@ -505,10 +519,10 @@ function renderTabela(id, turma){
 document.getElementById('filtroTurma').onchange = renderDetalhe;
 document.getElementById('primeiroBtn').onclick = ()=>{selecionada='2026-07-01';renderCalendarios();renderDetalhe();};
 document.getElementById('hojeBtn').onclick = ()=>{
-  const hoje = new Date();
-  const iso = dataISO(hoje.getFullYear(), hoje.getMonth(), hoje.getDate());
-  selecionada = (iso >= '2026-07-01' && iso <= '2026-12-31') ? iso : '2026-07-01';
-  renderCalendarios();renderDetalhe();
+  const iso = hojeISO();
+  selecionada = (iso >= INICIO_CALENDARIO && iso <= FIM_CALENDARIO) ? iso : INICIO_CALENDARIO;
+  renderCalendarios();
+  renderDetalhe();
 };
 
 renderTabela('tabela1',1);
