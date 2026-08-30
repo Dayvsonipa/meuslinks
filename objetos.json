@@ -241,6 +241,17 @@
         "caminho": "https://dliportal.zbra.com.br/Login.aspx?key=unica",
         "imagem": "img_unica/img03_minhabiblioteca.jpg"
     }, 
+
+    {
+        "nome": "Introdução à Computação",
+        "caminho": "https://drive.google.com/drive/folders/1UNF09eE5HxQBOVTXcSGuuBxwdeimPdJR",
+        "imagem": "img_unica/img19_ic.jpg"
+    },
+    {
+        "nome": "Introdução à Computação",
+        "caminho": "https://drive.google.com/drive/folders/1xBbZdLy-4Iok38AeQ5H1QjDqG95EUG5_",
+        "imagem": "img_unica/img18_ic.jpg"
+    },
     {
         "nome": "Arquitetura e Organização de Computadores",
         "caminho": "https://drive.google.com/drive/folders/1e6W4S4W-HXWOtvdMnDqha2KpLNEat-Ym",
@@ -250,12 +261,7 @@
         "nome": "Projeto Integrador 5",
         "caminho": "",
         "imagem": "img_unica/img16_pi5.jpg"
-    },     
-    {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
-    },
+    },   
     {
         "nome": "---",
         "caminho": "",
@@ -275,19 +281,18 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    }
-    ,
+    },
+    
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "Central Arquivos",
+        "caminho": "https://dayvsonipa.github.io/central-de-arquivos/",
+        "imagem": "img/central-arquivos.jpg"
     }, 
     {
         "nome": "MySQL",
         "caminho": "https://sql-do-zero-ao-avancado.vercel.app/",
         "imagem": "img/sql-do-zero.jpg"
-    }
-    ,
+    },
     {
         "nome": "Logica-C",
         "caminho": "https://logica-c-do-zero-ao-primeiro-projet.vercel.app/",
