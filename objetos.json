@@ -287,6 +287,16 @@
         "nome": "Central Arquivos",
         "caminho": "https://dayvsonipa.github.io/central-de-arquivos/",
         "imagem": "img/central-arquivos.jpg"
+    },
+    {
+        "nome": "Logica-C",
+        "caminho": "https://logica-c-do-zero-ao-primeiro-projet.vercel.app/",
+        "imagem": "img/logica-c.jpg"
+    },
+    {
+        "nome": "HTML - CSS",
+        "caminho": "https://html-css-do-basico-ao-avancado.vercel.app/",
+        "imagem": "img/html-css.jpg"
     }, 
     {
         "nome": "MySQL",
@@ -294,16 +304,15 @@
         "imagem": "img/sql-do-zero.jpg"
     },
     {
-        "nome": "Logica-C",
-        "caminho": "https://logica-c-do-zero-ao-primeiro-projet.vercel.app/",
-        "imagem": "img/logica-c.jpg"
-    }, 
+        "nome": "JAVASCRIPT",
+        "caminho": "https://javascript-do-zero-ao-avancado.vercel.app/",
+        "imagem": "img/javascript.jpg"
+    },     
     {
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    }
-    ,
+    },
     {
         "nome": "---",
         "caminho": "",
