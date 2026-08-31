@@ -307,7 +307,12 @@
         "nome": "JAVASCRIPT",
         "caminho": "https://javascript-do-basico-ao-avancado.vercel.app/",
         "imagem": "img/javascript.jpg"
-    },     
+    },
+    {
+        "nome": "REACT",
+        "caminho": "https://react-do-zero-ao-avancado.vercel.app/",
+        "imagem": "img/react.jpg"
+    },      
     {
         "nome": "---",
         "caminho": "",
