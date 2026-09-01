@@ -282,7 +282,11 @@
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
     },
-    
+    {
+        "nome": "dia a dia",
+        "caminho": "https://meu-dia-dia.vercel.app/",
+        "imagem": "img/dia-a-dia.jpg"
+    },    
     {
         "nome": "Central Arquivos",
         "caminho": "https://dayvsonipa.github.io/central-de-arquivos/",
