@@ -294,6 +294,11 @@
         "imagem": "img/logica-c.jpg"
     },
     {
+        "nome": "Python",
+        "caminho": "https://python-do-zero-ao-avancado.vercel.app/",
+        "imagem": "img/python.jpg"
+    },
+    {
         "nome": "HTML - CSS",
         "caminho": "https://html-css-do-basico-ao-avancado.vercel.app/",
         "imagem": "img/html-css.jpg"
