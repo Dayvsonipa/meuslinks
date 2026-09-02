@@ -323,14 +323,14 @@
         "imagem": "img/react.jpg"
     },      
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "Git",
+        "caminho": "https://git-do-zero-ao-primeiro-deploy.vercel.app/",
+        "imagem": "img/git.jpg"
     },
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "php",
+        "caminho": "https://php-do-zero-ao-primeiro-sistema.vercel.app/",
+        "imagem": "img/php.jpg"
     }, 
     {
         "nome": "---",
