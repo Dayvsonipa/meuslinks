@@ -356,21 +356,32 @@
         "nome": "---",
         "caminho": "",
         "imagem": "img/emdesenvolvimento.jpg"
-    },
+    },    
+    
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "Leitura-dinamica",
+        "caminho": "https://leitura-inteligente.vercel.app/",
+        "imagem": "img/leitura.jpg"
     }, 
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "Memorização",
+        "caminho": "https://memorizacao-que-funciona.vercel.app/",
+        "imagem": "img/memorizacao.jpg"
     },
     {
-        "nome": "---",
-        "caminho": "",
-        "imagem": "img/emdesenvolvimento.jpg"
+        "nome": "Oratória",
+        "caminho": "https://a-arte-de-falar-em-publico.vercel.app/",
+        "imagem": "img/oratoria.jpg"
+    }, 
+    {
+        "nome": "Educação Financeira",
+        "caminho": "https://educacao-financeira.vercel.app/",
+        "imagem": "img/educacao_financeira.jpg"
+    },
+    {
+        "nome": "Pensamento Crítico",
+        "caminho": "https://pensamento-critico.vercel.app/",
+        "imagem": "img/pensamento_critico.jpg"
     }, 
     {
         "nome": "---",
