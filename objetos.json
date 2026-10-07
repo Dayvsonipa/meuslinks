@@ -241,11 +241,15 @@
         "caminho": "https://dliportal.zbra.com.br/Login.aspx?key=unica",
         "imagem": "img_unica/img03_minhabiblioteca.jpg"
     }, 
-
     {
-        "nome": "Introdução à Computação",
+        "nome": "Fundamentos da Computação",
+        "caminho": "https://drive.google.com/drive/folders/1IQG7MwOEtHogptPO8sVrXcu_yksphAfT",
+        "imagem": "img_unica/img20_fc.jpg"
+    },
+    {
+        "nome": "Fundamentos da Computação",
         "caminho": "https://drive.google.com/drive/folders/1UNF09eE5HxQBOVTXcSGuuBxwdeimPdJR",
-        "imagem": "img_unica/img19_ic.jpg"
+        "imagem": "img_unica/img19_fc.jpg"
     },
     {
         "nome": "Introdução à Computação",
