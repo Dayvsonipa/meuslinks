@@ -75,6 +75,16 @@
         "imagem": "img_dayvson/dayvson.jpg"
     },
     {
+        "nome": "Finanças",
+        "caminho": "https://controle-financeiro-neon-three.vercel.app/",
+        "imagem": "img_dayvson/app_financeiro.jpg"
+    },
+    {
+        "nome": "Lista Compras",
+        "caminho": "https://lista-de-compras-vert-chi.vercel.app/entrar",
+        "imagem": "img_dayvson/lista_compras.jpg"
+    },
+    {
         "nome": "lattes",
         "caminho": "https://lattes.cnpq.br/7147126380366082",
         "imagem": "img_dayvson/plataforma_lattes.jpg"
@@ -164,7 +174,7 @@
         "nome": "Chatgpt-",
         "caminho": "https://chat.openai.com/auth/login",
         "imagem": "img_diversas/chatgpt1.jpg"
-    },
+    },    
     {
         "nome": "Hostinger",
         "caminho": "https://hpanel.hostinger.com/",
